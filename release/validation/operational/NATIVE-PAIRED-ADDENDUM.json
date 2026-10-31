@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "status": "pass",
+  "reviewed_utc": "2026-10-31T05:01:45.437232+00:00",
+  "exit_code": 0,
+  "tests": 23,
+  "source_unchanged_during_tests": true,
+  "other_previously_reviewed_sources_unchanged": true,
+  "source_sha256_before": {
+    "src/research_toolkit/toolkit.py": "7a8c58300d800d73e88fb5725b5c77f0e61a17e9d8b57cf169f522c75f43ebf3",
+    "src/research_toolkit/protocols.py": "d1b25eef5168dce4f6741507b623fc7020a32a0d573b6a5ef6d8ae08211a2e5f",
+    "src/research_toolkit/storage.py": "fd8743ee8a02068fdda7ab0d4f4e13e0007aacdf685336c98f649bb4a86a507c",
+    "src/research_toolkit/execution.py": "38fcc789c676cd022631cde0f09858d4d06b0620e0a4085105dbf1b0575b9bdb",
+    "src/research_toolkit/reporting.py": "4842e59bf09bd4c5f304e421094ea73dd43d0300b788bb0429c39a3126439bcd",
+    "qualification/native.py": "26a86c186ea4bb5d751e24bbd68926fe15cec8a3380ad78f8e2c27eafe21d2a4",
+    "qualification/oracles.json": "b17abaea1aac9ff75d583bc6b2057da73521fe2f4087340defadfec1b40ce8f2",
+    "independent-review/test_native_pairs.py": "587dc0d1b2ec4b8abac885e7e203bb49eed217cc687bc9f04d4a543108d54559"
+  },
+  "source_sha256_after": {
+    "src/research_toolkit/toolkit.py": "7a8c58300d800d73e88fb5725b5c77f0e61a17e9d8b57cf169f522c75f43ebf3",
+    "src/research_toolkit/protocols.py": "d1b25eef5168dce4f6741507b623fc7020a32a0d573b6a5ef6d8ae08211a2e5f",
+    "src/research_toolkit/storage.py": "fd8743ee8a02068fdda7ab0d4f4e13e0007aacdf685336c98f649bb4a86a507c",
+    "src/research_toolkit/execution.py": "38fcc789c676cd022631cde0f09858d4d06b0620e0a4085105dbf1b0575b9bdb",
+    "src/research_toolkit/reporting.py": "4842e59bf09bd4c5f304e421094ea73dd43d0300b788bb0429c39a3126439bcd",
+    "qualification/native.py": "26a86c186ea4bb5d751e24bbd68926fe15cec8a3380ad78f8e2c27eafe21d2a4",
+    "qualification/oracles.json": "b17abaea1aac9ff75d583bc6b2057da73521fe2f4087340defadfec1b40ce8f2",
+    "independent-review/test_native_pairs.py": "587dc0d1b2ec4b8abac885e7e203bb49eed217cc687bc9f04d4a543108d54559"
+  },
+  "scope": "Focused native paired descriptive accuracy changes, tolerance boundaries, recomputation and aggregate-only exports",
+  "prior_operational_review": {
+    "file": "OPERATIONAL-REVIEW.json",
+    "sha256": "0bf81c0c67548e9f8ce945f76915b625a2182679d1bc163259d96b356084ac67",
+    "status": "pass",
+    "tests": 19,
+    "applicability": "The four focused checks passed. Test discovery also reran all prior 19 operational tests against the updated source, and all passed."
+  },
+  "checked": {
+    "exact_repair_tolerance": {
+      "tolerance": 0.21428571428571427,
+      "mean_improvement": 0.21428571428571427,
+      "comparison": "inconclusive",
+      "sample_count": 14,
+      "repetitions": 2,
+      "population_sd_expression": "sqrt(33)/14"
+    },
+    "neighboring_float_tolerance_behavior": "below is positive; above is inconclusive",
+    "negative_token": {
+      "candidate_score": 0.25,
+      "baseline_score": 1.0,
+      "mean_improvement": -0.75,
+      "sample_count": 4,
+      "population_sd_expression": "sqrt(3)/4",
+      "comparison": "negative"
+    },
+    "equivalent_token": "zero paired dispersion remains descriptive/inconclusive",
+    "recomputation_and_exports": "pass; no per-case rows or final labels in public export"
+  },
+  "model_calls": 0,
+  "original_delivery_execution": false,
+  "exact_package_acceptance": "separate pending final package",
+  "stdout": "NATIVE-PAIRED-ADDENDUM-OUTPUT.txt",
+  "focused_tests": 4,
+  "regression_tests_reexecuted": 19,
+  "elapsed_seconds": 54.686,
+  "test_discovery_note": "unittest also discovered the imported Operations fixture class, so all 19 existing operational tests reran and passed alongside the four focused checks."
+}

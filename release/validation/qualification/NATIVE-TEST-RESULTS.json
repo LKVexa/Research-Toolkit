@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0.0",
+  "status": "pass",
+  "command": "Python 3.12.14 -I -B qualification/test_native.py",
+  "exit_code": 0,
+  "tests_passed": 8,
+  "supported_frozen_payloads_checked": 8,
+  "corruption_mutations_rejected": 26,
+  "native_module_sha256": "26a86c186ea4bb5d751e24bbd68926fe15cec8a3380ad78f8e2c27eafe21d2a4",
+  "oracle_sha256": "b17abaea1aac9ff75d583bc6b2057da73521fe2f4087340defadfec1b40ce8f2",
+  "original_code_executed": false,
+  "adapter_execution_performed": false,
+  "stdout": "NATIVE-TEST-OUTPUT.txt"
+}

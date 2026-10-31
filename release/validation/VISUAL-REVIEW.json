@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0.0",
+  "status": "pass",
+  "report": "outputs/Research_Toolkit_Example_Reports/export-linear-positive/report.html",
+  "report_sha256": "aa0da7180b6d7e1f402921ccc4deb8edad13e3e0b22e9ae18ca16cec93064f31",
+  "screenshot_sha256": "7af9659ff68e01dce8fc2f61d15de9feb27aaf9b6a6370a1976ae15890b0b3d8",
+  "viewport": "1250x1100",
+  "method": "Headless Edge screenshot visually inspected",
+  "checks": [
+    "Scored observations label correct",
+    "Separate execution and source-claim status readable",
+    "Cards and provenance table aligned without horizontal overflow",
+    "Metric direction and repetition limitation visible"
+  ],
+  "scope": "Public aggregate report presentation; not scientific acceptance"
+}

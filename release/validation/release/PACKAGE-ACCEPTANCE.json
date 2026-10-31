@@ -1,0 +1,491 @@
+{
+  "schema_version": "1.0.0",
+  "package_manifest_sha256": "d93c0e3199c3bdc1d5d493d291ea3ed79a6425d40565e5b1ad011c590c754899",
+  "package_files": 572,
+  "app": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app",
+  "qa_root": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2",
+  "real_model_calls": 0,
+  "application_network_calls": 0,
+  "scope": "CLI/product acceptance and actual fixed safe process probes; no OS filesystem/network isolation claim",
+  "tests": [
+    {
+      "name": "exact_manifest_pin",
+      "passed": true,
+      "actual": "d93c0e3199c3bdc1d5d493d291ea3ed79a6425d40565e5b1ad011c590c754899",
+      "expected": "d93c0e3199c3bdc1d5d493d291ea3ed79a6425d40565e5b1ad011c590c754899"
+    },
+    {
+      "name": "exact_inventory",
+      "passed": true
+    },
+    {
+      "name": "no_bytecode",
+      "passed": true
+    },
+    {
+      "name": "no_credential_filenames",
+      "passed": true
+    },
+    {
+      "name": "doctor",
+      "passed": true,
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "catalog_query",
+      "passed": true,
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "catalog_query_filters_experiments",
+      "passed": true
+    },
+    {
+      "name": "pc_winter_disclosed",
+      "passed": true
+    },
+    {
+      "name": "powershell_default_doctor",
+      "passed": true,
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "powershell_query_arguments",
+      "passed": true,
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "cmd_launcher_query",
+      "passed": true,
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "prepare_positive-01",
+      "passed": true,
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "prepared_key_positive-01",
+      "passed": true
+    },
+    {
+      "name": "protocol_positive-01",
+      "passed": true,
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "run_positive-01",
+      "passed": true,
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "outcome_positive-01",
+      "passed": true
+    },
+    {
+      "name": "verify_positive-01",
+      "passed": true,
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "prepare_negative-01",
+      "passed": true,
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "prepared_key_negative-01",
+      "passed": true
+    },
+    {
+      "name": "protocol_negative-01",
+      "passed": true,
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "run_negative-01",
+      "passed": true,
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "outcome_negative-01",
+      "passed": true
+    },
+    {
+      "name": "verify_negative-01",
+      "passed": true,
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "prepare_equivalent-01",
+      "passed": true,
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "prepared_key_equivalent-01",
+      "passed": true
+    },
+    {
+      "name": "protocol_equivalent-01",
+      "passed": true,
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "run_equivalent-01",
+      "passed": true,
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "outcome_equivalent-01",
+      "passed": true
+    },
+    {
+      "name": "verify_equivalent-01",
+      "passed": true,
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "runs_listing",
+      "passed": true,
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "inspect_positive",
+      "passed": true,
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "duplicate_run_id",
+      "passed": true,
+      "exit_code": 2,
+      "expected_exit_code": 2
+    },
+    {
+      "name": "case_alias_run_id",
+      "passed": true,
+      "exit_code": 2,
+      "expected_exit_code": 2
+    },
+    {
+      "name": "resume_completed",
+      "passed": true,
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "completed_resume_no_reexecution",
+      "passed": true
+    },
+    {
+      "name": "cancel_terminal_rejected",
+      "passed": true,
+      "exit_code": 2,
+      "expected_exit_code": 2
+    },
+    {
+      "name": "explicit_superseding_run",
+      "passed": true,
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "compare_compatible",
+      "passed": true,
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "register_custom_data",
+      "passed": true,
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "freeze_custom_mae",
+      "passed": true,
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "run_custom_mae",
+      "passed": true,
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "custom_mae_analytical_values",
+      "passed": true
+    },
+    {
+      "name": "verify_custom_mae",
+      "passed": true,
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "incomparable_metrics",
+      "passed": true,
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "frozen_protocol_change_rejected",
+      "passed": true,
+      "exit_code": 2,
+      "expected_exit_code": 2
+    },
+    {
+      "name": "powershell_export_spaces",
+      "passed": true,
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "duplicate_export_rejected",
+      "passed": true,
+      "exit_code": 2,
+      "expected_exit_code": 2
+    },
+    {
+      "name": "missing_export_parent_rejected",
+      "passed": true,
+      "exit_code": 2,
+      "expected_exit_code": 2
+    },
+    {
+      "name": "export_into_state_rejected",
+      "passed": true,
+      "exit_code": 2,
+      "expected_exit_code": 2
+    },
+    {
+      "name": "public_export_aggregate_only",
+      "passed": true
+    },
+    {
+      "name": "public_html_exists",
+      "passed": true
+    },
+    {
+      "name": "runtime_requires_isolated",
+      "passed": true,
+      "exit_code": 2,
+      "expected_exit_code": 2
+    },
+    {
+      "name": "runtime_rejects_wrong_version",
+      "passed": true,
+      "exit_code": 2,
+      "expected_exit_code": 2
+    },
+    {
+      "name": "invalid_run_path",
+      "passed": true,
+      "exit_code": 2,
+      "expected_exit_code": 2
+    },
+    {
+      "name": "invalid_protocol_path",
+      "passed": true,
+      "exit_code": 2,
+      "expected_exit_code": 2
+    },
+    {
+      "name": "unknown_preset",
+      "passed": true,
+      "exit_code": 2,
+      "expected_exit_code": 2
+    },
+    {
+      "name": "invalid_repetitions",
+      "passed": true,
+      "exit_code": 2,
+      "expected_exit_code": 2
+    },
+    {
+      "name": "state_inside_application",
+      "passed": true,
+      "exit_code": 2,
+      "expected_exit_code": 2
+    },
+    {
+      "name": "sibling_state_rejected_0",
+      "passed": true,
+      "exit_code": 2,
+      "expected_exit_code": 2
+    },
+    {
+      "name": "sibling_state_rejected_1",
+      "passed": true,
+      "exit_code": 2,
+      "expected_exit_code": 2
+    },
+    {
+      "name": "unrelated_state_rejected",
+      "passed": true,
+      "exit_code": 2,
+      "expected_exit_code": 2
+    },
+    {
+      "name": "junction_created_for_test",
+      "passed": true
+    },
+    {
+      "name": "junction_state_rejected",
+      "passed": true,
+      "exit_code": 2,
+      "expected_exit_code": 2
+    },
+    {
+      "name": "junction_target_preserved",
+      "passed": true
+    },
+    {
+      "name": "relocated_doctor",
+      "passed": true,
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "changed_app",
+      "passed": true,
+      "exit_code": 2,
+      "expected_exit_code": 2
+    },
+    {
+      "name": "missing_app",
+      "passed": true,
+      "exit_code": 2,
+      "expected_exit_code": 2
+    },
+    {
+      "name": "changed_protocol_code",
+      "passed": true,
+      "exit_code": 2,
+      "expected_exit_code": 2
+    },
+    {
+      "name": "changed_native_oracle",
+      "passed": true,
+      "exit_code": 2,
+      "expected_exit_code": 2
+    },
+    {
+      "name": "changed_foundation",
+      "passed": true,
+      "exit_code": 2,
+      "expected_exit_code": 2
+    },
+    {
+      "name": "missing_foundation",
+      "passed": true,
+      "exit_code": 2,
+      "expected_exit_code": 2
+    },
+    {
+      "name": "unexpected_app_file",
+      "passed": true,
+      "exit_code": 2,
+      "expected_exit_code": 2
+    },
+    {
+      "name": "frozen_record_tamper",
+      "passed": true,
+      "exit_code": 2,
+      "expected_exit_code": 2
+    },
+    {
+      "name": "raw_output_tamper",
+      "passed": true,
+      "exit_code": 2,
+      "expected_exit_code": 2
+    },
+    {
+      "name": "unexpected_run_file",
+      "passed": true,
+      "exit_code": 2,
+      "expected_exit_code": 2
+    },
+    {
+      "name": "restored_run_verifies",
+      "passed": true,
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "real_child_timeout",
+      "passed": true
+    },
+    {
+      "name": "real_child_cancellation",
+      "passed": true
+    },
+    {
+      "name": "real_output_cap",
+      "passed": true
+    },
+    {
+      "name": "real_memory_cap",
+      "passed": true
+    },
+    {
+      "name": "real_process_count_cap",
+      "passed": true
+    },
+    {
+      "name": "real_environment_allowlist",
+      "passed": true
+    },
+    {
+      "name": "missing_runtime_refused",
+      "passed": true
+    },
+    {
+      "name": "terminated_children_no_late_writes",
+      "passed": true
+    },
+    {
+      "name": "clean_removal_by_rename",
+      "passed": true
+    },
+    {
+      "name": "rollback_relocated_catalog",
+      "passed": true,
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "original_package_preserved",
+      "passed": true
+    }
+  ],
+  "test_count": 87,
+  "passed_count": 87,
+  "passed": true,
+  "known_release_findings": [
+    {
+      "code": "misleading_observation_label",
+      "detail": "HTML says Final observations for a shared renderer also used by native all-case totals.",
+      "status": "Requires Scored observations wording and focused revalidation."
+    }
+  ],
+  "release_ready_within_review_scope": false
+}

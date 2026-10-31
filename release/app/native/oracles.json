@@ -1,0 +1,432 @@
+{
+  "schema_version": "1.0.0",
+  "measurement_version": "1.0.0",
+  "scope": "qualified authored fixtures only",
+  "foundation_manifest_sha256": "e01d3f340239f4abe0daa27cb3e7c64190f95f4f3a0419f493bc14e7b07d571d",
+  "capability_baseline_pins": {
+    "D0001/C0081-03": {
+      "baseline": "e41e2f6f01cacce2917aff0bf41d061cd18e2ebd18aa03b661a0442a51650ceb",
+      "negative-control": "5f1bf44b94ad90039629f945b42d3555e202d72c64f3bee5af047f3e75979b1a"
+    },
+    "D0007/C0322-01": {
+      "all": "c4f31385365617166437778d5e2836395f713f0b1a0962a9b3b9273542052034",
+      "correct": "451a31a1a7a65b20ab6a23de1bc05af980d4f662a738f29a1b3e2101accb1259",
+      "initial": "7328dfc6d783618731f9fdea705ec44c6aafc6160f257f83e8ccee8435aa295f",
+      "regression": "c48563840389547c3d5e45b3342a540911c85831660456028405df689019014c"
+    },
+    "D0007/C0322-02": {
+      "all": "984411e00f0548c2bc0ea241159fba41bd04412f58a1f84c625f41ee5c33fbfd",
+      "correct": "7a7c0f145936a0614a5859559117d0b714a60b23574ad1b5005d7f522da880fe",
+      "initial": "10713f71eeb7f3d5f7404806d7304ae50e3fdccf2f23748c4e60dcbd0d88ea7a",
+      "regression": "03775bb184c8eca4c6957e2ed6e162e7078bb6def7816ab454b75e6bb63690d0"
+    }
+  },
+  "source_pins": {
+    "adapters/python/entry.py": "e96e3419e517d251b947175da61c9c1f3841670e4883a0950a9ffd84e446fe6b",
+    "adapters/python/ADAPTER.json": "e4a1bf965bf64698a6a96c0a6c1358c71d06099bb7066ca23d7ac24a51785447",
+    "adapters/python/SOURCE-MANIFEST.json": "7d60e34dcec32e33b35da3b035cf198a83c8ffed6bd51be3834828beac9aed44",
+    "adapters/python/vendor/d0001/frog.py": "9841753452220c1a55c4d10c391658249f52e118bf6a61522baf68d741e55d11",
+    "adapters/python/vendor/d0001/pairs_c.py": "8f6fab2725fb703803afb872c2307efc69e07fdd9e923b5bf85c0f73797e5a0d",
+    "adapters/python/historical/records.json": "92510d2fcae12ae2882345e9ae658057cb285074843a43b02b7927463c0d4809",
+    "adapters/d0007/ADAPTER.json": "97a1bad72ee54a0487ab06a84b23dd2da9ff397916dbcadcf0d46e4cb606f23f",
+    "adapters/d0007/SOURCE-MANIFEST.json": "a03ea2199c2f93784254baded10ef4bbbc3cc1a60c826f6a5971aa6ae1ecfacb",
+    "adapters/d0007/src/WorkbenchAdapter.cs": "b459f7b1ab8470591f098ec5fdadaedc27cc9af9c0301bfdd52156452ae4248b",
+    "adapters/d0007/src/P2PDiagnostics.cs": "4353fe7fc1fdb14b082048fbb4e70544ac9f49bac49b2b0aa5c964dfaca7b97b",
+    "adapters/d0007/src/HarnessCommon.cs": "f34c5cb6aefc070ad362ec61acd77aab549d81fcdc3333a307369010d1b524a5",
+    "adapters/d0007/bin/WorkbenchD7.exe": "20c7988ec2865c793558e616d1652d54b86ededc5f0b1d4da91a84f3ccd6f69d",
+    "adapters/d0007/historical/PLAN.md": "c41f27de7ff6cec21d8ccd94a70ea64e372a63cec0edfbd49925879a48301f9d",
+    "adapters/d0007/historical/raw-inputs.json": "1d4b49f83bc778e2b952720f43e0c6a91f918cf3094d4c808eddde13ec522461",
+    "adapters/d0007/historical/raw-outcomes.json": "109811ddb0292a4e118143e04fe670768ebe313306784b2f91680e568e68ebf4"
+  },
+  "D0001": {
+    "checks": [
+      {
+        "id": "known_example",
+        "expected": 14,
+        "type": "integer",
+        "input": "30 fixed role labels; 14 model-generated labels"
+      },
+      {
+        "id": "empty",
+        "expected": 0,
+        "type": "integer",
+        "input": "empty role sequence"
+      },
+      {
+        "id": "recomputable",
+        "expected": 605,
+        "type": "integer",
+        "input": "1,000 role labels from NumPy default_rng(23)",
+        "expectation_source": "Pinned baseline /records/checks/recomputable/expected; source independently recounts role membership"
+      },
+      {
+        "id": "unknown_role",
+        "expected": "ViolationError: unknown token role(s): ['sys']",
+        "type": "string",
+        "input": "['reasoning', 'sys']",
+        "expectation_source": "Pinned baseline observed exception; original criterion is raises ViolationError"
+      }
+    ],
+    "payload_checks_sha256": {
+      "baseline": "67093e6af604140aff37971188fc48ddd9ee0a5b15163c064ef90753ce12b6b0",
+      "negative-control": "37024b04a274d9ff937f817967e632758c56b3860ea5c85df4b271b3f9188549"
+    },
+    "data_pin": "2258a026801f0c9cd35b38c83b4c40c8aabf0c732db81a98a1c4d8913d1608db",
+    "seed": 23
+  },
+  "D0007": {
+    "labels": [
+      {
+        "case_id": "DEV-T01",
+        "expected_outcome": "value:0",
+        "category": "P2P",
+        "task_id": "DEV-CLAMP",
+        "task_version": "clamp-v1",
+        "split": "development",
+        "arguments": [
+          -2,
+          0,
+          5
+        ]
+      },
+      {
+        "case_id": "DEV-T02",
+        "expected_outcome": "value:3",
+        "category": "P2P",
+        "task_id": "DEV-CLAMP",
+        "task_version": "clamp-v1",
+        "split": "development",
+        "arguments": [
+          3,
+          0,
+          5
+        ]
+      },
+      {
+        "case_id": "DEV-T03",
+        "expected_outcome": "value:5",
+        "category": "F2P",
+        "task_id": "DEV-CLAMP",
+        "task_version": "clamp-v1",
+        "split": "development",
+        "arguments": [
+          9,
+          0,
+          5
+        ]
+      },
+      {
+        "case_id": "DEV-T04",
+        "expected_outcome": "exception:ArgumentException",
+        "category": "P2P",
+        "task_id": "DEV-CLAMP",
+        "task_version": "clamp-v1",
+        "split": "development",
+        "arguments": [
+          0,
+          3,
+          2
+        ]
+      },
+      {
+        "case_id": "DEV-T05",
+        "expected_outcome": "value:4",
+        "category": "P2P",
+        "task_id": "DEV-CLAMP",
+        "task_version": "clamp-v1",
+        "split": "development",
+        "arguments": [
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "case_id": "DEV-T06",
+        "expected_outcome": "value:-10",
+        "category": "P2P",
+        "task_id": "DEV-CLAMP",
+        "task_version": "clamp-v1",
+        "split": "development",
+        "arguments": [
+          -2147483648,
+          -10,
+          10
+        ]
+      },
+      {
+        "case_id": "DEV-T07",
+        "expected_outcome": "value:10",
+        "category": "F2P",
+        "task_id": "DEV-CLAMP",
+        "task_version": "clamp-v1",
+        "split": "development",
+        "arguments": [
+          2147483647,
+          -10,
+          10
+        ]
+      },
+      {
+        "case_id": "DEV-T08",
+        "expected_outcome": "value:5",
+        "category": "P2P",
+        "task_id": "DEV-CLAMP",
+        "task_version": "clamp-v1",
+        "split": "development",
+        "arguments": [
+          5,
+          0,
+          5
+        ]
+      },
+      {
+        "case_id": "FINAL-T01",
+        "expected_outcome": "value:2147483648",
+        "category": "F2P",
+        "task_id": "FINAL-MAGNITUDE",
+        "task_version": "magnitude-v1",
+        "split": "final-evaluation",
+        "arguments": [
+          -2147483648
+        ]
+      },
+      {
+        "case_id": "FINAL-T02",
+        "expected_outcome": "value:5",
+        "category": "P2P",
+        "task_id": "FINAL-MAGNITUDE",
+        "task_version": "magnitude-v1",
+        "split": "final-evaluation",
+        "arguments": [
+          -5
+        ]
+      },
+      {
+        "case_id": "FINAL-T03",
+        "expected_outcome": "value:1",
+        "category": "P2P",
+        "task_id": "FINAL-MAGNITUDE",
+        "task_version": "magnitude-v1",
+        "split": "final-evaluation",
+        "arguments": [
+          -1
+        ]
+      },
+      {
+        "case_id": "FINAL-T04",
+        "expected_outcome": "value:0",
+        "category": "P2P",
+        "task_id": "FINAL-MAGNITUDE",
+        "task_version": "magnitude-v1",
+        "split": "final-evaluation",
+        "arguments": [
+          0
+        ]
+      },
+      {
+        "case_id": "FINAL-T05",
+        "expected_outcome": "value:1",
+        "category": "P2P",
+        "task_id": "FINAL-MAGNITUDE",
+        "task_version": "magnitude-v1",
+        "split": "final-evaluation",
+        "arguments": [
+          1
+        ]
+      },
+      {
+        "case_id": "FINAL-T06",
+        "expected_outcome": "value:2147483647",
+        "category": "P2P",
+        "task_id": "FINAL-MAGNITUDE",
+        "task_version": "magnitude-v1",
+        "split": "final-evaluation",
+        "arguments": [
+          2147483647
+        ]
+      }
+    ],
+    "inputs": [
+      {
+        "arguments": [
+          -2,
+          0,
+          5
+        ],
+        "case_id": "DEV-T01",
+        "group": "DEV-CLAMP",
+        "origin": "fresh-authored-bounded-fixture",
+        "split": "development",
+        "task_id": "DEV-CLAMP",
+        "task_version": "clamp-v1"
+      },
+      {
+        "arguments": [
+          3,
+          0,
+          5
+        ],
+        "case_id": "DEV-T02",
+        "group": "DEV-CLAMP",
+        "origin": "fresh-authored-bounded-fixture",
+        "split": "development",
+        "task_id": "DEV-CLAMP",
+        "task_version": "clamp-v1"
+      },
+      {
+        "arguments": [
+          9,
+          0,
+          5
+        ],
+        "case_id": "DEV-T03",
+        "group": "DEV-CLAMP",
+        "origin": "fresh-authored-bounded-fixture",
+        "split": "development",
+        "task_id": "DEV-CLAMP",
+        "task_version": "clamp-v1"
+      },
+      {
+        "arguments": [
+          0,
+          3,
+          2
+        ],
+        "case_id": "DEV-T04",
+        "group": "DEV-CLAMP",
+        "origin": "fresh-authored-bounded-fixture",
+        "split": "development",
+        "task_id": "DEV-CLAMP",
+        "task_version": "clamp-v1"
+      },
+      {
+        "arguments": [
+          4,
+          4,
+          4
+        ],
+        "case_id": "DEV-T05",
+        "group": "DEV-CLAMP",
+        "origin": "fresh-authored-bounded-fixture",
+        "split": "development",
+        "task_id": "DEV-CLAMP",
+        "task_version": "clamp-v1"
+      },
+      {
+        "arguments": [
+          -2147483648,
+          -10,
+          10
+        ],
+        "case_id": "DEV-T06",
+        "group": "DEV-CLAMP",
+        "origin": "fresh-authored-bounded-fixture",
+        "split": "development",
+        "task_id": "DEV-CLAMP",
+        "task_version": "clamp-v1"
+      },
+      {
+        "arguments": [
+          2147483647,
+          -10,
+          10
+        ],
+        "case_id": "DEV-T07",
+        "group": "DEV-CLAMP",
+        "origin": "fresh-authored-bounded-fixture",
+        "split": "development",
+        "task_id": "DEV-CLAMP",
+        "task_version": "clamp-v1"
+      },
+      {
+        "arguments": [
+          5,
+          0,
+          5
+        ],
+        "case_id": "DEV-T08",
+        "group": "DEV-CLAMP",
+        "origin": "fresh-authored-bounded-fixture",
+        "split": "development",
+        "task_id": "DEV-CLAMP",
+        "task_version": "clamp-v1"
+      },
+      {
+        "arguments": [
+          -2147483648
+        ],
+        "case_id": "FINAL-T01",
+        "group": "FINAL-MAGNITUDE",
+        "origin": "fresh-authored-bounded-fixture",
+        "split": "final-evaluation",
+        "task_id": "FINAL-MAGNITUDE",
+        "task_version": "magnitude-v1"
+      },
+      {
+        "arguments": [
+          -5
+        ],
+        "case_id": "FINAL-T02",
+        "group": "FINAL-MAGNITUDE",
+        "origin": "fresh-authored-bounded-fixture",
+        "split": "final-evaluation",
+        "task_id": "FINAL-MAGNITUDE",
+        "task_version": "magnitude-v1"
+      },
+      {
+        "arguments": [
+          -1
+        ],
+        "case_id": "FINAL-T03",
+        "group": "FINAL-MAGNITUDE",
+        "origin": "fresh-authored-bounded-fixture",
+        "split": "final-evaluation",
+        "task_id": "FINAL-MAGNITUDE",
+        "task_version": "magnitude-v1"
+      },
+      {
+        "arguments": [
+          0
+        ],
+        "case_id": "FINAL-T04",
+        "group": "FINAL-MAGNITUDE",
+        "origin": "fresh-authored-bounded-fixture",
+        "split": "final-evaluation",
+        "task_id": "FINAL-MAGNITUDE",
+        "task_version": "magnitude-v1"
+      },
+      {
+        "arguments": [
+          1
+        ],
+        "case_id": "FINAL-T05",
+        "group": "FINAL-MAGNITUDE",
+        "origin": "fresh-authored-bounded-fixture",
+        "split": "final-evaluation",
+        "task_id": "FINAL-MAGNITUDE",
+        "task_version": "magnitude-v1"
+      },
+      {
+        "arguments": [
+          2147483647
+        ],
+        "case_id": "FINAL-T06",
+        "group": "FINAL-MAGNITUDE",
+        "origin": "fresh-authored-bounded-fixture",
+        "split": "final-evaluation",
+        "task_id": "FINAL-MAGNITUDE",
+        "task_version": "magnitude-v1"
+      }
+    ],
+    "variants": [
+      "initial",
+      "correct",
+      "regression"
+    ],
+    "payload_checks_sha256": "361b8637810a81d452fe2654d5c9c960e0645e7070a4a4a2bf4ed44a5e6305b3",
+    "diagnostics_sha256": "831c651f3d4a1cb2c4d3a66832a64f8d68aff2af3554ec08c74ec5cf2d3237a6",
+    "data_pin": "3b2ce7e17d6e629e5697f452b2af1a6f4c4f0ccbab249a53c10f268bbac8cd6a",
+    "source_label": "PROMPT-VERSION-MISMATCH: original pre-v3 source used"
+  }
+}

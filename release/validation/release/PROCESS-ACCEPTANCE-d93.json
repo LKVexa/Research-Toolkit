@@ -1,0 +1,215 @@
+[
+  {
+    "outcome": "timeout",
+    "exit_code": 1,
+    "elapsed_seconds": 0.375,
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\products\\research-toolkit\\release-review\\safe_child.py",
+      "sleep",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\timeout-survived.txt"
+    ],
+    "cwd": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2",
+    "environment_names": [
+      "NUMBER_OF_PROCESSORS",
+      "OMP_NUM_THREADS",
+      "OPENBLAS_NUM_THREADS",
+      "PYTHONDONTWRITEBYTECODE",
+      "PYTHONUTF8",
+      "SystemRoot",
+      "TEMP",
+      "TMP",
+      "WINDIR"
+    ],
+    "limits": {
+      "timeout_seconds": 0.35,
+      "output_bytes_per_stream": 1048576,
+      "memory_mb": 512,
+      "active_processes": 1
+    },
+    "name": "real_timeout",
+    "stdout_bytes": 0,
+    "stderr_bytes": 0,
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "outcome": "cancelled",
+    "exit_code": 1,
+    "elapsed_seconds": 0.312,
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\products\\research-toolkit\\release-review\\safe_child.py",
+      "sleep",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\cancel-survived.txt"
+    ],
+    "cwd": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2",
+    "environment_names": [
+      "NUMBER_OF_PROCESSORS",
+      "OMP_NUM_THREADS",
+      "OPENBLAS_NUM_THREADS",
+      "PYTHONDONTWRITEBYTECODE",
+      "PYTHONUTF8",
+      "SystemRoot",
+      "TEMP",
+      "TMP",
+      "WINDIR"
+    ],
+    "limits": {
+      "timeout_seconds": 3,
+      "output_bytes_per_stream": 1048576,
+      "memory_mb": 512,
+      "active_processes": 1
+    },
+    "name": "real_cancel",
+    "stdout_bytes": 0,
+    "stderr_bytes": 0,
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "outcome": "output_limit",
+    "exit_code": 1,
+    "elapsed_seconds": 0.266,
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\products\\research-toolkit\\release-review\\safe_child.py",
+      "output"
+    ],
+    "cwd": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2",
+    "environment_names": [
+      "NUMBER_OF_PROCESSORS",
+      "OMP_NUM_THREADS",
+      "OPENBLAS_NUM_THREADS",
+      "PYTHONDONTWRITEBYTECODE",
+      "PYTHONUTF8",
+      "SystemRoot",
+      "TEMP",
+      "TMP",
+      "WINDIR"
+    ],
+    "limits": {
+      "timeout_seconds": 3,
+      "output_bytes_per_stream": 1048576,
+      "memory_mb": 512,
+      "active_processes": 1
+    },
+    "name": "real_output_cap",
+    "stdout_bytes": 1048576,
+    "stderr_bytes": 0,
+    "stdout_sha256": "8f990ba0b577b51cf009ea049368c16bbda1b21e1b93be07a824758bb253c39b",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "outcome": "completed",
+    "exit_code": 0,
+    "elapsed_seconds": 0.266,
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\products\\research-toolkit\\release-review\\safe_child.py",
+      "memory"
+    ],
+    "cwd": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2",
+    "environment_names": [
+      "NUMBER_OF_PROCESSORS",
+      "OMP_NUM_THREADS",
+      "OPENBLAS_NUM_THREADS",
+      "PYTHONDONTWRITEBYTECODE",
+      "PYTHONUTF8",
+      "SystemRoot",
+      "TEMP",
+      "TMP",
+      "WINDIR"
+    ],
+    "limits": {
+      "timeout_seconds": 3,
+      "output_bytes_per_stream": 1048576,
+      "memory_mb": 512,
+      "active_processes": 1
+    },
+    "name": "real_memory_cap",
+    "stdout_bytes": 27,
+    "stderr_bytes": 0,
+    "stdout_sha256": "81d36cc65d3f248a04b6d0f33c5f93113080e4714fb5bf9e913b34b52773d794",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "outcome": "completed",
+    "exit_code": 0,
+    "elapsed_seconds": 0.281,
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\products\\research-toolkit\\release-review\\safe_child.py",
+      "spawn",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\spawn-survived.txt"
+    ],
+    "cwd": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2",
+    "environment_names": [
+      "NUMBER_OF_PROCESSORS",
+      "OMP_NUM_THREADS",
+      "OPENBLAS_NUM_THREADS",
+      "PYTHONDONTWRITEBYTECODE",
+      "PYTHONUTF8",
+      "SystemRoot",
+      "TEMP",
+      "TMP",
+      "WINDIR"
+    ],
+    "limits": {
+      "timeout_seconds": 3,
+      "output_bytes_per_stream": 1048576,
+      "memory_mb": 512,
+      "active_processes": 1
+    },
+    "name": "real_process_count_cap",
+    "stdout_bytes": 22,
+    "stderr_bytes": 0,
+    "stdout_sha256": "556554460d3c65f4ec399db1b791abbec0874f1b17e15904f370755a190071db",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "outcome": "completed",
+    "exit_code": 0,
+    "elapsed_seconds": 0.281,
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\products\\research-toolkit\\release-review\\safe_child.py",
+      "environment"
+    ],
+    "cwd": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2",
+    "environment_names": [
+      "NUMBER_OF_PROCESSORS",
+      "OMP_NUM_THREADS",
+      "OPENBLAS_NUM_THREADS",
+      "PYTHONDONTWRITEBYTECODE",
+      "PYTHONUTF8",
+      "SystemRoot",
+      "TEMP",
+      "TMP",
+      "WINDIR"
+    ],
+    "limits": {
+      "timeout_seconds": 3,
+      "output_bytes_per_stream": 1048576,
+      "memory_mb": 512,
+      "active_processes": 1
+    },
+    "name": "real_environment_allowlist",
+    "stdout_bytes": 172,
+    "stderr_bytes": 0,
+    "stdout_sha256": "7cb59a6cd4464c1a9253feec0bfc8bc46e427e32113e306e398fb3e3e031092b",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

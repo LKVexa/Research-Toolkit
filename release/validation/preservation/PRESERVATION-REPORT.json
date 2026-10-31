@@ -1,0 +1,86 @@
+{
+  "acceptance_note": "This is preservation evidence only; no research, execution or R01-R04 gate acceptance is inferred",
+  "archives_matching_release_directories": 3,
+  "audit_write_boundary": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\products\\research-toolkit\\audit",
+  "created_at_utc": "2026-10-31T05:07:15.653100+00:00",
+  "evidence": {
+    "IMMUTABLE-PINS.json": {
+      "bytes": 1612,
+      "sha256": "de28903615051769e3ca38839c5cd031e12d28ad1141bf40df8117667d60cf13"
+    },
+    "ORIGINALS-AFTER.json": {
+      "bytes": 453,
+      "sha256": "6b539432bfd4b5d0b20c17aaa5bb07efca0e7ac3e75230bef8eee044a2c393a8"
+    },
+    "ORIGINALS-BEFORE.json": {
+      "bytes": 453,
+      "sha256": "df87756fa455fce94898a9c968332d2162fe7f8f49e0af18cf64f410914f15d4"
+    },
+    "PRODUCTS-AFTER.json": {
+      "bytes": 460445,
+      "sha256": "e549dab7f049540bb585c0fd8e41391e01257429c43fe6e218b11242a665e6ee"
+    },
+    "PRODUCTS-BEFORE.json": {
+      "bytes": 459079,
+      "sha256": "44478b22af3db75d9db03703533f95de59c4ae535cabcded9a2dc98d95e972b4"
+    }
+  },
+  "original_files_checked": 9364,
+  "original_or_sibling_application_code_executed_by_audit": false,
+  "originals_added": [],
+  "originals_changed": [],
+  "originals_removed": [],
+  "originals_reparse_points": [],
+  "phase": "after",
+  "product": "research-replication-toolkit",
+  "protected_product_targets": {
+    "Coding_Agent_Example_Patch": {
+      "files": 5,
+      "type": "directory"
+    },
+    "Coding_Agent_Platform_Archive_Verification.json": {
+      "files": 1,
+      "type": "file"
+    },
+    "Coding_Agent_Platform_SHA256SUMS.txt": {
+      "files": 1,
+      "type": "file"
+    },
+    "Coding_Agent_Platform_v0.1.0-rc.1": {
+      "files": 724,
+      "type": "directory"
+    },
+    "Coding_Agent_Platform_v0.1.0-rc.1.zip": {
+      "files": 1,
+      "type": "file"
+    },
+    "Local_Component_Workbench_v0.1.0-rc.1": {
+      "files": 685,
+      "type": "directory"
+    },
+    "Local_Component_Workbench_v0.1.0-rc.1.zip": {
+      "files": 1,
+      "type": "file"
+    },
+    "Local_Component_Workbench_v0.1.0-rc.1.zip.sha256": {
+      "files": 1,
+      "type": "file"
+    },
+    "Shared_Foundation_v0.1.0-rc.1": {
+      "files": 731,
+      "type": "directory"
+    },
+    "Shared_Foundation_v0.1.0-rc.1.zip": {
+      "files": 1,
+      "type": "file"
+    },
+    "Shared_Foundation_v0.1.0-rc.1.zip.sha256": {
+      "files": 1,
+      "type": "file"
+    }
+  },
+  "q0_through_q6_verified": true,
+  "result": "pass",
+  "schema_version": "1.0.0",
+  "scope": "Original and sibling release contents unchanged across the research toolkit build"
+}

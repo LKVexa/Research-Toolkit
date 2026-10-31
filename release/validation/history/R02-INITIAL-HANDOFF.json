@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0.0",
+  "gate": "R02",
+  "result": "pass",
+  "recorded_at_utc": "2026-10-31T05:11:04.6222487Z",
+  "app_manifest_sha256": "d93c0e3199c3bdc1d5d493d291ea3ed79a6425d40565e5b1ad011c590c754899",
+  "complete_workflows": 10,
+  "real_adapter_processes": 40,
+  "deterministic_repetitions": 2,
+  "observed": {
+    "negative": 4,
+    "positive": 3,
+    "inconclusive": 3
+  },
+  "evidence": "release-evidence/WORKFLOW-RESULTS.json",
+  "pending_release_refinement": "Change HTML Final observations label to Scored observations for mixed native fixture partitions",
+  "next": "Finish exact-package review, revalidate label-only change, repeat final workflows and independently verify raw metrics"
+}

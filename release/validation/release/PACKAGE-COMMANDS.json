@@ -1,0 +1,1043 @@
+[
+  {
+    "name": "doctor",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "doctor"
+    ],
+    "exit_code": 0,
+    "seconds": 4.39,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\doctor.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\doctor.stderr.txt"
+  },
+  {
+    "name": "catalog_query",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "catalog",
+      "--query",
+      "token"
+    ],
+    "exit_code": 0,
+    "seconds": 3.047,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\catalog_query.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\catalog_query.stderr.txt"
+  },
+  {
+    "name": "powershell_default_doctor",
+    "argv": [
+      "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "-NoProfile",
+      "-ExecutionPolicy",
+      "Bypass",
+      "-File",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\Start-Research.ps1"
+    ],
+    "exit_code": 0,
+    "seconds": 6.844,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\powershell_default_doctor.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\powershell_default_doctor.stderr.txt"
+  },
+  {
+    "name": "powershell_query_arguments",
+    "argv": [
+      "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "-NoProfile",
+      "-ExecutionPolicy",
+      "Bypass",
+      "-File",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\Start-Research.ps1",
+      "catalog",
+      "--query",
+      "token"
+    ],
+    "exit_code": 0,
+    "seconds": 6.156,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\powershell_query_arguments.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\powershell_query_arguments.stderr.txt"
+  },
+  {
+    "name": "cmd_launcher_query",
+    "argv": [
+      "C:\\WINDOWS\\System32\\cmd.exe",
+      "/d",
+      "/s",
+      "/c",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\Research-Toolkit.cmd catalog --query token"
+    ],
+    "exit_code": 0,
+    "seconds": 3.844,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\cmd_launcher_query.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\cmd_launcher_query.stderr.txt"
+  },
+  {
+    "name": "prepare_positive-01",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "prepare",
+      "--preset",
+      "linear-positive",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\state"
+    ],
+    "exit_code": 0,
+    "seconds": 10.75,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\prepare_positive-01.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\prepare_positive-01.stderr.txt"
+  },
+  {
+    "name": "protocol_positive-01",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "protocol",
+      "--id",
+      "linear-positive--1.0.0",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\state"
+    ],
+    "exit_code": 0,
+    "seconds": 5.422,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\protocol_positive-01.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\protocol_positive-01.stderr.txt"
+  },
+  {
+    "name": "run_positive-01",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "run",
+      "--protocol",
+      "linear-positive--1.0.0",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\state",
+      "--run-id",
+      "positive-01"
+    ],
+    "exit_code": 0,
+    "seconds": 8.594,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\run_positive-01.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\run_positive-01.stderr.txt"
+  },
+  {
+    "name": "verify_positive-01",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "verify",
+      "--run-id",
+      "positive-01",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\state"
+    ],
+    "exit_code": 0,
+    "seconds": 7.281,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\verify_positive-01.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\verify_positive-01.stderr.txt"
+  },
+  {
+    "name": "prepare_negative-01",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "prepare",
+      "--preset",
+      "zero-negative",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\state"
+    ],
+    "exit_code": 0,
+    "seconds": 10.547,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\prepare_negative-01.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\prepare_negative-01.stderr.txt"
+  },
+  {
+    "name": "protocol_negative-01",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "protocol",
+      "--id",
+      "zero-negative--1.0.0",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\state"
+    ],
+    "exit_code": 0,
+    "seconds": 5.406,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\protocol_negative-01.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\protocol_negative-01.stderr.txt"
+  },
+  {
+    "name": "run_negative-01",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "run",
+      "--protocol",
+      "zero-negative--1.0.0",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\state",
+      "--run-id",
+      "negative-01"
+    ],
+    "exit_code": 0,
+    "seconds": 6.953,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\run_negative-01.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\run_negative-01.stderr.txt"
+  },
+  {
+    "name": "verify_negative-01",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "verify",
+      "--run-id",
+      "negative-01",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\state"
+    ],
+    "exit_code": 0,
+    "seconds": 9.594,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\verify_negative-01.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\verify_negative-01.stderr.txt"
+  },
+  {
+    "name": "prepare_equivalent-01",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "prepare",
+      "--preset",
+      "numeric-equivalence",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\state"
+    ],
+    "exit_code": 0,
+    "seconds": 3.281,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\prepare_equivalent-01.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\prepare_equivalent-01.stderr.txt"
+  },
+  {
+    "name": "protocol_equivalent-01",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "protocol",
+      "--id",
+      "numeric-equivalence--1.0.0",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\state"
+    ],
+    "exit_code": 0,
+    "seconds": 3.735,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\protocol_equivalent-01.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\protocol_equivalent-01.stderr.txt"
+  },
+  {
+    "name": "run_equivalent-01",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "run",
+      "--protocol",
+      "numeric-equivalence--1.0.0",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\state",
+      "--run-id",
+      "equivalent-01"
+    ],
+    "exit_code": 0,
+    "seconds": 5.906,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\run_equivalent-01.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\run_equivalent-01.stderr.txt"
+  },
+  {
+    "name": "verify_equivalent-01",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "verify",
+      "--run-id",
+      "equivalent-01",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\state"
+    ],
+    "exit_code": 0,
+    "seconds": 4.453,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\verify_equivalent-01.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\verify_equivalent-01.stderr.txt"
+  },
+  {
+    "name": "runs_listing",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "runs",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\state"
+    ],
+    "exit_code": 0,
+    "seconds": 3.375,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\runs_listing.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\runs_listing.stderr.txt"
+  },
+  {
+    "name": "inspect_positive",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "inspect",
+      "--run-id",
+      "positive-01",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\state"
+    ],
+    "exit_code": 0,
+    "seconds": 3.234,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\inspect_positive.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\inspect_positive.stderr.txt"
+  },
+  {
+    "name": "duplicate_run_id",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "run",
+      "--protocol",
+      "linear-positive--1.0.0",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\state",
+      "--run-id",
+      "positive-01"
+    ],
+    "exit_code": 2,
+    "seconds": 12.0,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\duplicate_run_id.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\duplicate_run_id.stderr.txt"
+  },
+  {
+    "name": "case_alias_run_id",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "run",
+      "--protocol",
+      "linear-positive--1.0.0",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\state",
+      "--run-id",
+      "POSITIVE-01"
+    ],
+    "exit_code": 2,
+    "seconds": 6.266,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\case_alias_run_id.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\case_alias_run_id.stderr.txt"
+  },
+  {
+    "name": "resume_completed",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "resume",
+      "--run-id",
+      "positive-01",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\state"
+    ],
+    "exit_code": 0,
+    "seconds": 16.0,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\resume_completed.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\resume_completed.stderr.txt"
+  },
+  {
+    "name": "cancel_terminal_rejected",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "cancel",
+      "--run-id",
+      "positive-01",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\state"
+    ],
+    "exit_code": 2,
+    "seconds": 4.187,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\cancel_terminal_rejected.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\cancel_terminal_rejected.stderr.txt"
+  },
+  {
+    "name": "explicit_superseding_run",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "run",
+      "--protocol",
+      "linear-positive--1.0.0",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\state",
+      "--run-id",
+      "positive-02",
+      "--supersedes",
+      "positive-01",
+      "--reason",
+      "Explicit unchanged-protocol acceptance reproducibility check."
+    ],
+    "exit_code": 0,
+    "seconds": 5.844,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\explicit_superseding_run.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\explicit_superseding_run.stderr.txt"
+  },
+  {
+    "name": "compare_compatible",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "compare",
+      "--left",
+      "positive-01",
+      "--right",
+      "positive-02",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\state"
+    ],
+    "exit_code": 0,
+    "seconds": 17.141,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\compare_compatible.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\compare_compatible.stderr.txt"
+  },
+  {
+    "name": "register_custom_data",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "dataset",
+      "--file",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\custom data with spaces.json",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\state"
+    ],
+    "exit_code": 0,
+    "seconds": 4.578,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\register_custom_data.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\register_custom_data.stderr.txt"
+  },
+  {
+    "name": "freeze_custom_mae",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "freeze",
+      "--file",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\custom protocol.json",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\state"
+    ],
+    "exit_code": 0,
+    "seconds": 4.266,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\freeze_custom_mae.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\freeze_custom_mae.stderr.txt"
+  },
+  {
+    "name": "run_custom_mae",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "run",
+      "--protocol",
+      "custom-mae--1.0.0",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\state",
+      "--run-id",
+      "custom-mae-01"
+    ],
+    "exit_code": 0,
+    "seconds": 10.156,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\run_custom_mae.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\run_custom_mae.stderr.txt"
+  },
+  {
+    "name": "verify_custom_mae",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "verify",
+      "--run-id",
+      "custom-mae-01",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\state"
+    ],
+    "exit_code": 0,
+    "seconds": 3.328,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\verify_custom_mae.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\verify_custom_mae.stderr.txt"
+  },
+  {
+    "name": "incomparable_metrics",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "compare",
+      "--left",
+      "positive-01",
+      "--right",
+      "custom-mae-01",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\state"
+    ],
+    "exit_code": 0,
+    "seconds": 6.125,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\incomparable_metrics.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\incomparable_metrics.stderr.txt"
+  },
+  {
+    "name": "frozen_protocol_change_rejected",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "freeze",
+      "--file",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\custom protocol.json",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\state"
+    ],
+    "exit_code": 2,
+    "seconds": 3.891,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\frozen_protocol_change_rejected.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\frozen_protocol_change_rejected.stderr.txt"
+  },
+  {
+    "name": "powershell_export_spaces",
+    "argv": [
+      "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "-NoProfile",
+      "-ExecutionPolicy",
+      "Bypass",
+      "-File",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\Start-Research.ps1",
+      "export",
+      "--run-id",
+      "positive-01",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\state",
+      "--destination",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\public report with spaces"
+    ],
+    "exit_code": 0,
+    "seconds": 5.171,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\powershell_export_spaces.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\powershell_export_spaces.stderr.txt"
+  },
+  {
+    "name": "duplicate_export_rejected",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "export",
+      "--run-id",
+      "positive-01",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\state",
+      "--destination",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\public report with spaces"
+    ],
+    "exit_code": 2,
+    "seconds": 8.641,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\duplicate_export_rejected.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\duplicate_export_rejected.stderr.txt"
+  },
+  {
+    "name": "missing_export_parent_rejected",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "export",
+      "--run-id",
+      "positive-01",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\state",
+      "--destination",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\missing parent\\report"
+    ],
+    "exit_code": 2,
+    "seconds": 3.328,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\missing_export_parent_rejected.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\missing_export_parent_rejected.stderr.txt"
+  },
+  {
+    "name": "export_into_state_rejected",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "export",
+      "--run-id",
+      "positive-01",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\state",
+      "--destination",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\state\\forbidden report"
+    ],
+    "exit_code": 2,
+    "seconds": 3.422,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\export_into_state_rejected.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\export_into_state_rejected.stderr.txt"
+  },
+  {
+    "name": "runtime_requires_isolated",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "catalog"
+    ],
+    "exit_code": 2,
+    "seconds": 0.156,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\runtime_requires_isolated.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\runtime_requires_isolated.stderr.txt"
+  },
+  {
+    "name": "runtime_rejects_wrong_version",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "-c",
+      "import sys,runpy;sys.version_info=(3,12,13);runpy.run_path(sys.argv[1],run_name=\"__main__\")",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py"
+    ],
+    "exit_code": 2,
+    "seconds": 0.172,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\runtime_rejects_wrong_version.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\runtime_rejects_wrong_version.stderr.txt"
+  },
+  {
+    "name": "invalid_run_path",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "inspect",
+      "--run-id",
+      "../escape",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\state"
+    ],
+    "exit_code": 2,
+    "seconds": 3.391,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\invalid_run_path.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\invalid_run_path.stderr.txt"
+  },
+  {
+    "name": "invalid_protocol_path",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "protocol",
+      "--id",
+      "../escape",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\state"
+    ],
+    "exit_code": 2,
+    "seconds": 3.937,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\invalid_protocol_path.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\invalid_protocol_path.stderr.txt"
+  },
+  {
+    "name": "unknown_preset",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "prepare",
+      "--preset",
+      "pc-winter",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\state"
+    ],
+    "exit_code": 2,
+    "seconds": 3.828,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\unknown_preset.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\unknown_preset.stderr.txt"
+  },
+  {
+    "name": "invalid_repetitions",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "prepare",
+      "--preset",
+      "linear-positive",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\state",
+      "--repetitions",
+      "4"
+    ],
+    "exit_code": 2,
+    "seconds": 16.844,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\invalid_repetitions.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\invalid_repetitions.stderr.txt"
+  },
+  {
+    "name": "state_inside_application",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "runs",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\forbidden state"
+    ],
+    "exit_code": 2,
+    "seconds": 3.656,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\state_inside_application.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\state_inside_application.stderr.txt"
+  },
+  {
+    "name": "sibling_state_rejected_0",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "runs",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Local_Component_Workbench_v0.1.0-rc.1\\forbidden-research-state"
+    ],
+    "exit_code": 2,
+    "seconds": 19.36,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\sibling_state_rejected_0.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\sibling_state_rejected_0.stderr.txt"
+  },
+  {
+    "name": "sibling_state_rejected_1",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "runs",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Coding_Agent_Platform_v0.1.0-rc.1\\forbidden-research-state"
+    ],
+    "exit_code": 2,
+    "seconds": 3.89,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\sibling_state_rejected_1.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\sibling_state_rejected_1.stderr.txt"
+  },
+  {
+    "name": "unrelated_state_rejected",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "runs",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\unrelated-state"
+    ],
+    "exit_code": 2,
+    "seconds": 3.907,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\unrelated_state_rejected.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\unrelated_state_rejected.stderr.txt"
+  },
+  {
+    "name": "junction_state_rejected",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "runs",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\junction state"
+    ],
+    "exit_code": 2,
+    "seconds": 3.875,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\junction_state_rejected.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\junction_state_rejected.stderr.txt"
+  },
+  {
+    "name": "relocated_doctor",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\app space\\research.py",
+      "doctor"
+    ],
+    "exit_code": 0,
+    "seconds": 10.578,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\relocated_doctor.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\relocated_doctor.stderr.txt"
+  },
+  {
+    "name": "changed_app",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\app space\\research.py",
+      "catalog",
+      "--query",
+      "token"
+    ],
+    "exit_code": 2,
+    "seconds": 0.375,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\changed_app.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\changed_app.stderr.txt"
+  },
+  {
+    "name": "missing_app",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\app space\\research.py",
+      "catalog",
+      "--query",
+      "token"
+    ],
+    "exit_code": 2,
+    "seconds": 0.344,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\missing_app.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\missing_app.stderr.txt"
+  },
+  {
+    "name": "changed_protocol_code",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\app space\\research.py",
+      "catalog",
+      "--query",
+      "token"
+    ],
+    "exit_code": 2,
+    "seconds": 1.297,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\changed_protocol_code.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\changed_protocol_code.stderr.txt"
+  },
+  {
+    "name": "changed_native_oracle",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\app space\\research.py",
+      "catalog",
+      "--query",
+      "token"
+    ],
+    "exit_code": 2,
+    "seconds": 1.235,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\changed_native_oracle.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\changed_native_oracle.stderr.txt"
+  },
+  {
+    "name": "changed_foundation",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\app space\\research.py",
+      "catalog",
+      "--query",
+      "token"
+    ],
+    "exit_code": 2,
+    "seconds": 1.235,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\changed_foundation.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\changed_foundation.stderr.txt"
+  },
+  {
+    "name": "missing_foundation",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\app space\\research.py",
+      "catalog",
+      "--query",
+      "token"
+    ],
+    "exit_code": 2,
+    "seconds": 1.187,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\missing_foundation.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\missing_foundation.stderr.txt"
+  },
+  {
+    "name": "unexpected_app_file",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\app space\\research.py",
+      "doctor"
+    ],
+    "exit_code": 2,
+    "seconds": 1.984,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\unexpected_app_file.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\unexpected_app_file.stderr.txt"
+  },
+  {
+    "name": "frozen_record_tamper",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "protocol",
+      "--id",
+      "linear-positive--1.0.0",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\state"
+    ],
+    "exit_code": 2,
+    "seconds": 8.407,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\frozen_record_tamper.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\frozen_record_tamper.stderr.txt"
+  },
+  {
+    "name": "raw_output_tamper",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "verify",
+      "--run-id",
+      "positive-01",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\state"
+    ],
+    "exit_code": 2,
+    "seconds": 3.828,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\raw_output_tamper.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\raw_output_tamper.stderr.txt"
+  },
+  {
+    "name": "unexpected_run_file",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "verify",
+      "--run-id",
+      "positive-01",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\state"
+    ],
+    "exit_code": 2,
+    "seconds": 4.219,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\unexpected_run_file.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\unexpected_run_file.stderr.txt"
+  },
+  {
+    "name": "restored_run_verifies",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "verify",
+      "--run-id",
+      "positive-01",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\state"
+    ],
+    "exit_code": 0,
+    "seconds": 6.953,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\restored_run_verifies.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\restored_run_verifies.stderr.txt"
+  },
+  {
+    "name": "rollback_relocated_catalog",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\retired app\\research.py",
+      "catalog",
+      "--query",
+      "token"
+    ],
+    "exit_code": 0,
+    "seconds": 3.516,
+    "stdout": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\rollback_relocated_catalog.stdout.txt",
+    "stderr": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\qa-3e3c5ce2\\logs\\rollback_relocated_catalog.stderr.txt"
+  }
+]

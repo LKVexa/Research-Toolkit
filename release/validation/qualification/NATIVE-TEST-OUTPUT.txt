@@ -1,0 +1,13 @@
+test_all_eight_supported_frozen_cases (__main__.NativeMeasurementTests.test_all_eight_supported_frozen_cases) ... ok
+test_ambiguous_or_unqualified_requests_rejected (__main__.NativeMeasurementTests.test_ambiguous_or_unqualified_requests_rejected) ... ok
+test_coordinated_summary_edits_conflict_with_literal_diagnostics (__main__.NativeMeasurementTests.test_coordinated_summary_edits_conflict_with_literal_diagnostics) ... ok
+test_data_identity_does_not_inflate_across_component_aliases (__main__.NativeMeasurementTests.test_data_identity_does_not_inflate_across_component_aliases) ... ok
+test_malformed_or_forged_d1_evidence_rejected (__main__.NativeMeasurementTests.test_malformed_or_forged_d1_evidence_rejected) ... ok
+test_malformed_or_forged_d7_evidence_rejected (__main__.NativeMeasurementTests.test_malformed_or_forged_d7_evidence_rejected) ... ok
+test_negative_candidate_is_valid_negative_measurement (__main__.NativeMeasurementTests.test_negative_candidate_is_valid_negative_measurement) ... ok
+test_selection_does_not_depend_on_array_order (__main__.NativeMeasurementTests.test_selection_does_not_depend_on_array_order) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.048s
+
+OK

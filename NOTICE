@@ -1,0 +1,34 @@
+Research Replication and Benchmarking Toolkit
+Copyright (C) 2026 RUSSELL PHILIP SMITHSON
+
+This program is free software: you can redistribute it and/or modify it
+under the terms of the GNU General Public License, version 3, as published
+by the Free Software Foundation (SPDX: GPL-3.0-only).
+
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE. See LICENSE for the full terms.
+
+The repository's authored product software and supplied authored delivery
+material are published under GPL version 3 at the owner's direction.
+Existing third-party copyright, attribution, license and provenance notices
+are retained; this declaration does not reassign third-party ownership.
+
+The authored synthetic datasets retain their explicit CC0-1.0 metadata.
+That dataset permission is preserved separately from the software license.
+
+The release/ directory is a byte-for-byte copy of Research_Replication_Toolkit_v0.1.0-rc.1.
+It includes the separately verified shared foundation, corresponding source,
+build material and qualification evidence. Prior references to local-only
+distribution or licensing not yet inferred describe that historical build.
+This top-level publication notice records the later GPL publication direction
+without altering the sealed evidence or embedded application manifests.
+
+Historical source instructions and scientific claims are provenance, not
+current commands or evidence of successful paper-scale replication. Retain
+the limitations, negative results, attributions and notices with copies.
+
+Python, NumPy, Git, Windows and provider runtimes, where required, remain
+external dependencies under their respective terms. No credentials or
+external runtime installations are bundled. This NOTICE adds no restriction
+to the GPL license; explicit dataset permissions remain separately available.

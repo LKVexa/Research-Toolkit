@@ -1,0 +1,16 @@
+test_authored_shift_is_negative (__main__.NumericalTests.test_authored_shift_is_negative) ... ok
+test_cli_has_bounded_json_output_and_rejects_leak (__main__.NumericalTests.test_cli_has_bounded_json_output_and_rejects_leak) ... ok
+test_degenerate_x_fixed_tie_break (__main__.NumericalTests.test_degenerate_x_fixed_tie_break) ... ok
+test_exact_negative_slope (__main__.NumericalTests.test_exact_negative_slope) ... ok
+test_exact_positive_linear_controls (__main__.NumericalTests.test_exact_positive_linear_controls) ... ok
+test_malformed_data_rejected (__main__.NumericalTests.test_malformed_data_rejected) ... ok
+test_no_final_labels_or_metadata_in_request (__main__.NumericalTests.test_no_final_labels_or_metadata_in_request) ... ok
+test_prediction_coverage_and_finite_bounds (__main__.NumericalTests.test_prediction_coverage_and_finite_bounds) ... ok
+test_request_and_json_strictness (__main__.NumericalTests.test_request_and_json_strictness) ... ok
+test_tolerance_boundary_is_inconclusive (__main__.NumericalTests.test_tolerance_boundary_is_inconclusive) ... ok
+test_zero_inferior_and_equivalence (__main__.NumericalTests.test_zero_inferior_and_equivalence) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.229s
+
+OK

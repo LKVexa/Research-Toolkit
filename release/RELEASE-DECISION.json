@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0.0",
+  "decision": "released-locally",
+  "version": "0.1.0-rc.1",
+  "version_rationale": "Initial independently versioned prerelease; narrow tested experimental profiles, no prior supported toolkit version",
+  "app_manifest_sha256": "2e91b7a37eef922cd177d76ab4c8d9efca83fbafce5f12c5050f7a7c81ab0f78",
+  "foundation_manifest_sha256": "e01d3f340239f4abe0daa27cb3e7c64190f95f4f3a0419f493bc14e7b07d571d",
+  "gates": {
+    "R01": "pass",
+    "R02": "pass",
+    "R03": "pass",
+    "R04": "pass"
+  },
+  "papers_marked_complete": 0,
+  "original_files_preserved": 9364,
+  "existing_products": "unchanged",
+  "publication": "local-only"
+}

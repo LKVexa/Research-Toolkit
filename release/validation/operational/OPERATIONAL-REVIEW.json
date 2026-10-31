@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0.0",
+  "status": "pass",
+  "reviewed_utc": "2026-10-31T04:58:46.403335+00:00",
+  "exit_code": 0,
+  "test_count": 19,
+  "elapsed_seconds": 44.051,
+  "source_unchanged_during_tests": true,
+  "source_sha256_before": {
+    "src/research_toolkit/toolkit.py": "492d653f1cc88af52c0538bd9d356335341f2a6b7aa0d4085d67b9c9387b8ebc",
+    "src/research_toolkit/protocols.py": "d1b25eef5168dce4f6741507b623fc7020a32a0d573b6a5ef6d8ae08211a2e5f",
+    "src/research_toolkit/storage.py": "fd8743ee8a02068fdda7ab0d4f4e13e0007aacdf685336c98f649bb4a86a507c",
+    "src/research_toolkit/execution.py": "38fcc789c676cd022631cde0f09858d4d06b0620e0a4085105dbf1b0575b9bdb",
+    "src/research_toolkit/reporting.py": "4842e59bf09bd4c5f304e421094ea73dd43d0300b788bb0429c39a3126439bcd",
+    "numerical/adapter.py": "fba9c0ab4056f23c22244bd0a5484bd533bb85cc6c52ad5409a6f851a977a947",
+    "numerical/data.py": "db83d4cd8db5a8c71e8833eb462cb0bfb7e3516ef9894de0694e8509a0bd0964",
+    "numerical/metrics.py": "603683237421a85f284cd8fa33bef68aa1d60a1da5d0f9bfa464df95f7377374",
+    "qualification/native.py": "26a86c186ea4bb5d751e24bbd68926fe15cec8a3380ad78f8e2c27eafe21d2a4",
+    "qualification/oracles.json": "b17abaea1aac9ff75d583bc6b2057da73521fe2f4087340defadfec1b40ce8f2",
+    "independent-review/test_operations.py": "612cb244191ac47f22819afc2200fb3f5e350113d7b2d3577a95b3d9fe3a9e1a"
+  },
+  "source_sha256_after": {
+    "src/research_toolkit/toolkit.py": "492d653f1cc88af52c0538bd9d356335341f2a6b7aa0d4085d67b9c9387b8ebc",
+    "src/research_toolkit/protocols.py": "d1b25eef5168dce4f6741507b623fc7020a32a0d573b6a5ef6d8ae08211a2e5f",
+    "src/research_toolkit/storage.py": "fd8743ee8a02068fdda7ab0d4f4e13e0007aacdf685336c98f649bb4a86a507c",
+    "src/research_toolkit/execution.py": "38fcc789c676cd022631cde0f09858d4d06b0620e0a4085105dbf1b0575b9bdb",
+    "src/research_toolkit/reporting.py": "4842e59bf09bd4c5f304e421094ea73dd43d0300b788bb0429c39a3126439bcd",
+    "numerical/adapter.py": "fba9c0ab4056f23c22244bd0a5484bd533bb85cc6c52ad5409a6f851a977a947",
+    "numerical/data.py": "db83d4cd8db5a8c71e8833eb462cb0bfb7e3516ef9894de0694e8509a0bd0964",
+    "numerical/metrics.py": "603683237421a85f284cd8fa33bef68aa1d60a1da5d0f9bfa464df95f7377374",
+    "qualification/native.py": "26a86c186ea4bb5d751e24bbd68926fe15cec8a3380ad78f8e2c27eafe21d2a4",
+    "qualification/oracles.json": "b17abaea1aac9ff75d583bc6b2057da73521fe2f4087340defadfec1b40ce8f2",
+    "independent-review/test_operations.py": "612cb244191ac47f22819afc2200fb3f5e350113d7b2d3577a95b3d9fe3a9e1a"
+  },
+  "scope": "Independent operational review using real bounded native/numerical child executions plus explicit fault-injection and concurrency tests.",
+  "foundation_manifest_pin": "e01d3f340239f4abe0daa27cb3e7c64190f95f4f3a0419f493bc14e7b07d571d",
+  "original_delivery_execution": false,
+  "model_calls": 0,
+  "source_files_edited_by_reviewer": false,
+  "limitation": "The narrow test fixture bypasses Toolkit construction. Exact assembled package, embedded dependency identity, launcher and release evidence still need separate acceptance.",
+  "findings": [
+    {
+      "id": "ops-001",
+      "severity": "medium",
+      "status": "remediated",
+      "finding": "A cancellation arriving after evaluation but before sealing retained a positive public summary and successful implementation flag.",
+      "remediation": "Late cancellation now sets implementation status unverified and omits the public summary, while private evidence remains preserved."
+    },
+    {
+      "id": "ops-002",
+      "severity": "medium",
+      "status": "remediated",
+      "finding": "Incompatible comparisons omitted each completed run outcome from the response, including a negative result.",
+      "remediation": "The incomparable response retains both complete individual public results without pooling their scores."
+    },
+    {
+      "id": "ops-003",
+      "severity": "medium",
+      "status": "remediated",
+      "finding": "A malformed numerical fit_details list caused uncaught AttributeError and prevented a failed terminal receipt.",
+      "remediation": "Numerical payloads now validate fit metadata and predictions before access; malformed and non-finite outputs produce sealed failed evidence."
+    },
+    {
+      "id": "ops-004",
+      "severity": "medium",
+      "status": "remediated",
+      "finding": "Failed reproducibility retained a positive first-repetition public summary despite the unavailable overall comparison.",
+      "remediation": "The public result omits final summary scores when reproducibility fails; independent verification still recomputes all private comparisons."
+    }
+  ],
+  "additional_boundaries_verified": [
+    "Final labels absent from method requests and public exports",
+    "Negative results remain exportable with source claims unverified",
+    "Protocol content, timestamp and version-chain protection",
+    "Dataset metadata receipt integrity",
+    "Concurrent protocol registration and duplicate run ownership",
+    "Concurrent cancellation/finalization receipt consistency",
+    "Recovery never reexecutes unknown child outcomes",
+    "Completed output can be independently recomputed after interrupted receipt sealing",
+    "Missing outputs, NaN and malformed records fail closed",
+    "Failed/incomplete runs are not pooled",
+    "Deterministic repetitions do not multiply sample counts",
+    "Protocol text is escaped in script-free public HTML"
+  ],
+  "stdout": "operational-test-output.txt"
+}

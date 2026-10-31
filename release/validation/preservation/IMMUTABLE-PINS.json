@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "product": "research-replication-toolkit",
+  "role": "verified-preserved-input-identities-not-product-acceptance",
+  "foundation": {
+    "version": "0.1.0-rc.1",
+    "core_manifest_file_sha256": "e01d3f340239f4abe0daa27cb3e7c64190f95f4f3a0419f493bc14e7b07d571d",
+    "archive_sha256": "dd815ff9fa79d2aa03bed181795e5fe02f0679053edca08e541cad378de606fa",
+    "q0_through_q6_verified": true
+  },
+  "workbench": {
+    "version": "0.1.0-rc.1",
+    "app_manifest_file_sha256": "4ad2d1d49ab7a7f6c71040b4e08013277dc1879aa6f16587d6305096004d3ff9",
+    "archive_sha256": "974685db523f897e9687a5333447c785e56b5485dde35caef6301a20e954d964"
+  },
+  "coding_agent": {
+    "version": "0.1.0-rc.1",
+    "app_manifest_file_sha256": "c33d66b3bc53c8b6c1028e1529d574c5eb9bfbee30d7fe732faf035db8cae5ab",
+    "app_manifest_canonical_json_digest": "a5bb9d94936cb7310c555774db478f7d9111e1f9dbcded16ed6fe08dacab8b86",
+    "release_manifest_file_sha256": "0199a585f9a81abfdbaebf02422429c2846a6552a948c22d83bb3881dbc02c88",
+    "archive_sha256": "85f258a7b6c65ac70bea2a78f8b878a1b3f1b992ea4765abc889959b5aeb3199"
+  },
+  "original_inventory_baseline_sha256": "0eaf5de58463dd566ecad43b766129517e0d06468eb9278fa4bf071aeef4e722",
+  "before_product_snapshot_sha256": "44478b22af3db75d9db03703533f95de59c4ae535cabcded9a2dc98d95e972b4",
+  "research_workflow_guide_sha256": "0869f34acf4c68b2da66093b766d90fbd7c80ba88993e578bdc8187bb0ce954d",
+  "identity_note": "File SHA-256 hashes exact bytes. The coding app also reports a canonical JSON digest; the two values intentionally differ and are labeled separately."
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0.0",
+  "product": "research-replication-toolkit",
+  "version": "0.1.0-rc.1",
+  "foundation_manifest_sha256": "e01d3f340239f4abe0daa27cb3e7c64190f95f4f3a0419f493bc14e7b07d571d",
+  "scope": "Qualified fixture replays and authored analytical regression benchmarks; no paper-scale replication claim",
+  "selected_source_components": ["D0001/C0081-03", "D0007/C0322-01"],
+  "duplicate_scope": "D0007/C0322-02 shares the same observations and is not a separate independent replication",
+  "pc_winter": "blocked; not qualified in the verified foundation, historical negative findings unchanged",
+  "workflow": ["discover", "register validated data", "freeze protocol", "run fixed method and baseline", "compare raw outcomes", "verify and export"],
+  "numeric_methods": ["ordinary-least-squares", "zero-predictor", "same-baseline"],
+  "numeric_baseline": "mean-baseline",
+  "metrics": {"numeric": ["mse", "mae"], "native": ["accuracy"]},
+  "uncertainty": "Descriptive sample dispersion only; no inferential tests, confidence claims or benchmark superiority",
+  "repetitions": "1 to 3 deterministic reproducibility checks; repetitions do not increase independent sample count",
+  "adapter_authority": "Only pinned fixed local adapters; imported metadata cannot supply code or commands",
+  "evaluation_separation": "Numerical methods receive development labels and final features only; final labels remain in local evaluator state",
+  "public_export": "Aggregate comparisons and provenance only; no final labels or row-level private outcomes",
+  "preservation": "Original deliveries, foundation, workbench and coding-agent releases remain unchanged",
+  "release_gates": ["R01", "R02", "R03", "R04"]
+}

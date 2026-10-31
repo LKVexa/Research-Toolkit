@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "authored analytical diagnostic controls, not paper replication",
+  "prespecified_before_execution": true,
+  "tolerance": 1e-09,
+  "direction": "minimize",
+  "stochastic": false,
+  "seed_variation": false,
+  "independence_claim": false,
+  "comparisons": [
+    {
+      "dataset": "positive-linear",
+      "candidate": "ordinary-least-squares",
+      "baseline": "mean-baseline",
+      "expected_result": "positive",
+      "mse": {
+        "candidate": 0,
+        "baseline": 149
+      },
+      "mae": {
+        "candidate": 0,
+        "baseline": 12
+      }
+    },
+    {
+      "dataset": "negative-linear",
+      "candidate": "ordinary-least-squares",
+      "baseline": "mean-baseline",
+      "expected_result": "positive",
+      "mse": {
+        "candidate": 0,
+        "baseline": 335.25
+      },
+      "mae": {
+        "candidate": 0,
+        "baseline": 18
+      }
+    },
+    {
+      "dataset": "negative-shift",
+      "candidate": "ordinary-least-squares",
+      "baseline": "mean-baseline",
+      "expected_result": "negative",
+      "mse": {
+        "candidate": 149,
+        "baseline": 0
+      },
+      "mae": {
+        "candidate": 12,
+        "baseline": 0
+      }
+    },
+    {
+      "dataset": "positive-linear",
+      "candidate": "zero-predictor",
+      "baseline": "mean-baseline",
+      "expected_result": "negative",
+      "mse": {
+        "candidate": 201,
+        "baseline": 149
+      },
+      "mae": {
+        "candidate": 14,
+        "baseline": 12
+      }
+    },
+    {
+      "dataset": "positive-linear",
+      "candidate": "same-baseline",
+      "baseline": "mean-baseline",
+      "expected_result": "inconclusive",
+      "mse": {
+        "candidate": 149,
+        "baseline": 149
+      },
+      "mae": {
+        "candidate": 12,
+        "baseline": 12
+      }
+    }
+  ]
+}

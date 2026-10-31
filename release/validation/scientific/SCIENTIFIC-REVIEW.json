@@ -1,0 +1,1030 @@
+{
+  "checks": [
+    {
+      "details": {
+        "independent_development_mean": "2",
+        "independent_intercept": "3",
+        "independent_slope": "2"
+      },
+      "id": "positive-linear/ordinary-least-squares/predictions",
+      "result": "pass"
+    },
+    {
+      "details": {
+        "baseline_score_exact": "149",
+        "candidate_score_exact": "0",
+        "mean_improvement_exact": "149",
+        "population_variance_exact": "2896",
+        "result": "positive",
+        "unique_final_samples": 4
+      },
+      "id": "positive-linear/ordinary-least-squares/mse",
+      "result": "pass"
+    },
+    {
+      "details": {
+        "baseline_score_exact": "12",
+        "candidate_score_exact": "0",
+        "mean_improvement_exact": "12",
+        "population_variance_exact": "5",
+        "result": "positive",
+        "unique_final_samples": 4
+      },
+      "id": "positive-linear/ordinary-least-squares/mae",
+      "result": "pass"
+    },
+    {
+      "details": {
+        "independent_development_mean": "13/2",
+        "independent_intercept": "5",
+        "independent_slope": "-3"
+      },
+      "id": "negative-linear/ordinary-least-squares/predictions",
+      "result": "pass"
+    },
+    {
+      "details": {
+        "baseline_score_exact": "1341/4",
+        "candidate_score_exact": "0",
+        "mean_improvement_exact": "1341/4",
+        "population_variance_exact": "14661",
+        "result": "positive",
+        "unique_final_samples": 4
+      },
+      "id": "negative-linear/ordinary-least-squares/mse",
+      "result": "pass"
+    },
+    {
+      "details": {
+        "baseline_score_exact": "18",
+        "candidate_score_exact": "0",
+        "mean_improvement_exact": "18",
+        "population_variance_exact": "45/4",
+        "result": "positive",
+        "unique_final_samples": 4
+      },
+      "id": "negative-linear/ordinary-least-squares/mae",
+      "result": "pass"
+    },
+    {
+      "details": {
+        "independent_development_mean": "2",
+        "independent_intercept": "3",
+        "independent_slope": "2"
+      },
+      "id": "negative-shift/ordinary-least-squares/predictions",
+      "result": "pass"
+    },
+    {
+      "details": {
+        "baseline_score_exact": "0",
+        "candidate_score_exact": "149",
+        "mean_improvement_exact": "-149",
+        "population_variance_exact": "2896",
+        "result": "negative",
+        "unique_final_samples": 4
+      },
+      "id": "negative-shift/ordinary-least-squares/mse",
+      "result": "pass"
+    },
+    {
+      "details": {
+        "baseline_score_exact": "0",
+        "candidate_score_exact": "12",
+        "mean_improvement_exact": "-12",
+        "population_variance_exact": "5",
+        "result": "negative",
+        "unique_final_samples": 4
+      },
+      "id": "negative-shift/ordinary-least-squares/mae",
+      "result": "pass"
+    },
+    {
+      "details": {
+        "independent_development_mean": "2",
+        "independent_intercept": "0",
+        "independent_slope": "0"
+      },
+      "id": "positive-linear/zero-predictor/predictions",
+      "result": "pass"
+    },
+    {
+      "details": {
+        "baseline_score_exact": "149",
+        "candidate_score_exact": "201",
+        "mean_improvement_exact": "-52",
+        "population_variance_exact": "80",
+        "result": "negative",
+        "unique_final_samples": 4
+      },
+      "id": "positive-linear/zero-predictor/mse",
+      "result": "pass"
+    },
+    {
+      "details": {
+        "baseline_score_exact": "12",
+        "candidate_score_exact": "14",
+        "mean_improvement_exact": "-2",
+        "population_variance_exact": "0",
+        "result": "negative",
+        "unique_final_samples": 4
+      },
+      "id": "positive-linear/zero-predictor/mae",
+      "result": "pass"
+    },
+    {
+      "details": {
+        "independent_development_mean": "2",
+        "independent_intercept": "2",
+        "independent_slope": "0"
+      },
+      "id": "positive-linear/same-baseline/predictions",
+      "result": "pass"
+    },
+    {
+      "details": {
+        "baseline_score_exact": "149",
+        "candidate_score_exact": "149",
+        "mean_improvement_exact": "0",
+        "population_variance_exact": "0",
+        "result": "inconclusive",
+        "unique_final_samples": 4
+      },
+      "id": "positive-linear/same-baseline/mse",
+      "result": "pass"
+    },
+    {
+      "details": {
+        "baseline_score_exact": "12",
+        "candidate_score_exact": "12",
+        "mean_improvement_exact": "0",
+        "population_variance_exact": "0",
+        "result": "inconclusive",
+        "unique_final_samples": 4
+      },
+      "id": "positive-linear/same-baseline/mae",
+      "result": "pass"
+    },
+    {
+      "details": {
+        "checks": [
+          {
+            "method": "ordinary-least-squares",
+            "transformation": "x-translation"
+          },
+          {
+            "method": "ordinary-least-squares",
+            "transformation": "x-negative-scaling"
+          },
+          {
+            "method": "ordinary-least-squares",
+            "transformation": "y-negative-scaling"
+          },
+          {
+            "method": "ordinary-least-squares",
+            "transformation": "y-translation"
+          },
+          {
+            "method": "mean-baseline",
+            "transformation": "x-translation"
+          },
+          {
+            "method": "mean-baseline",
+            "transformation": "x-negative-scaling"
+          },
+          {
+            "method": "mean-baseline",
+            "transformation": "y-negative-scaling"
+          },
+          {
+            "method": "mean-baseline",
+            "transformation": "y-translation"
+          },
+          {
+            "method": "same-baseline",
+            "transformation": "x-translation"
+          },
+          {
+            "method": "same-baseline",
+            "transformation": "x-negative-scaling"
+          },
+          {
+            "method": "same-baseline",
+            "transformation": "y-negative-scaling"
+          },
+          {
+            "method": "same-baseline",
+            "transformation": "y-translation"
+          },
+          {
+            "method": "zero-predictor",
+            "transformation": "x-translation"
+          },
+          {
+            "method": "zero-predictor",
+            "transformation": "x-negative-scaling"
+          },
+          {
+            "method": "zero-predictor",
+            "transformation": "y-negative-scaling"
+          }
+        ],
+        "zero_response_translation_excluded": "A fixed zero predictor is not translation equivariant"
+      },
+      "id": "affine_prediction_invariants",
+      "result": "pass"
+    },
+    {
+      "details": [
+        {
+          "method": "ordinary-least-squares",
+          "metric": "mse",
+          "scale_factor": 9
+        },
+        {
+          "method": "ordinary-least-squares",
+          "metric": "mae",
+          "scale_factor": 3
+        },
+        {
+          "method": "zero-predictor",
+          "metric": "mse",
+          "scale_factor": 9
+        },
+        {
+          "method": "zero-predictor",
+          "metric": "mae",
+          "scale_factor": 3
+        },
+        {
+          "method": "same-baseline",
+          "metric": "mse",
+          "scale_factor": 9
+        },
+        {
+          "method": "same-baseline",
+          "metric": "mae",
+          "scale_factor": 3
+        }
+      ],
+      "id": "loss_scaling_and_direction_invariants",
+      "result": "pass"
+    },
+    {
+      "details": "Row permutation preserves predictions by identity and exact comparison record",
+      "id": "permutation_invariance",
+      "result": "pass"
+    },
+    {
+      "details": "Changing every final label leaves all method requests and predictions unchanged",
+      "id": "final_labels_excluded_from_method_inputs_and_fit",
+      "result": "pass"
+    },
+    {
+      "details": {
+        "rejection": "Duplicate group; one row per group and no cross-split group overlap are required."
+      },
+      "id": "cross_split_group_overlap_rejected",
+      "result": "pass"
+    },
+    {
+      "details": {
+        "rejection": "Duplicate group; one row per group and no cross-split group overlap are required."
+      },
+      "id": "within_development_group_duplicate_rejected",
+      "result": "pass"
+    },
+    {
+      "details": {
+        "rejection": "Duplicate row ID."
+      },
+      "id": "duplicate_row_identity_rejected",
+      "result": "pass"
+    },
+    {
+      "details": {
+        "rejection": "Split must be development or final."
+      },
+      "id": "invalid_split_rejected",
+      "result": "pass"
+    },
+    {
+      "details": {
+        "rejection": "At least 8 development and 4 final rows are required."
+      },
+      "id": "insufficient_development_split_rejected",
+      "result": "pass"
+    },
+    {
+      "details": {
+        "rejection": "At least 8 development and 4 final rows are required."
+      },
+      "id": "insufficient_final_split_rejected",
+      "result": "pass"
+    },
+    {
+      "details": {
+        "rejection": "Expected a finite bounded number; booleans are not numeric inputs."
+      },
+      "id": "nonfinite_label_rejected",
+      "result": "pass"
+    },
+    {
+      "details": {
+        "rejection": "Object fields do not match the fixed contract."
+      },
+      "id": "explicit_final_label_in_request_rejected",
+      "result": "pass"
+    },
+    {
+      "details": {
+        "rejection": "Expected a finite bounded number; booleans are not numeric inputs."
+      },
+      "id": "infeasible_derived_slope_rejected_without_score",
+      "result": "pass"
+    },
+    {
+      "details": "Unidentifiable slope uses the declared slope-zero/development-mean tie-break",
+      "id": "degenerate_fit_tie_break_matches_independent_oracle",
+      "result": "pass"
+    },
+    {
+      "details": {
+        "rejection": "Final arrays require 4 to 248 rows."
+      },
+      "id": "missing_prediction_rejected_not_positive",
+      "result": "pass"
+    },
+    {
+      "details": {
+        "boundary": "Strict greater/less; equality is inconclusive",
+        "low_level_direction": "Generic compare can reverse direction; qualified numeric protocol must enforce minimize"
+      },
+      "id": "comparison_boundary_and_direction_are_not_false_positive",
+      "result": "pass"
+    },
+    {
+      "details": {
+        "executions": 3,
+        "independent_samples": 4,
+        "limitation": "Actual runner aggregation remains to be reviewed after assembly",
+        "unique_final_samples_each": 4
+      },
+      "id": "deterministic_repeats_do_not_add_module_samples",
+      "result": "pass"
+    },
+    {
+      "details": {
+        "method": "Source inspection, not a runtime protocol-validation claim",
+        "native_accuracy": "maximize",
+        "numeric_losses": "minimize",
+        "repetitions": "1-3 deterministic runs",
+        "seed_list": "empty"
+      },
+      "id": "protocol_direction_and_repeat_source_contract",
+      "result": "pass"
+    },
+    {
+      "details": {
+        "unchanged": true
+      },
+      "id": "reviewed_inputs_unchanged",
+      "result": "pass"
+    }
+  ],
+  "confidence_interval_claim": false,
+  "counts": {
+    "fail": 0,
+    "pass": 34
+  },
+  "created_at_utc": "2026-10-31T04:49:43.642558+00:00",
+  "derived_controls": [
+    {
+      "baseline": "mean-baseline",
+      "candidate": "ordinary-least-squares",
+      "dataset": "positive-linear",
+      "metric": "mse",
+      "observed": {
+        "baseline_score": 149.0,
+        "candidate_score": 0.0,
+        "direction": "minimize",
+        "independence_claim": false,
+        "inference": "descriptive_only",
+        "mean_improvement": 149.0,
+        "metric": "mse",
+        "paired_differences": {
+          "count": 4,
+          "max": 225.0,
+          "mean": 149.0,
+          "min": 81.0,
+          "population_sd": 53.81449618829484
+        },
+        "per_row": [
+          {
+            "baseline_loss": 81.0,
+            "candidate_loss": 0.0,
+            "directional_improvement": 81.0,
+            "id": "row-09"
+          },
+          {
+            "baseline_loss": 121.0,
+            "candidate_loss": 0.0,
+            "directional_improvement": 121.0,
+            "id": "row-10"
+          },
+          {
+            "baseline_loss": 169.0,
+            "candidate_loss": 0.0,
+            "directional_improvement": 169.0,
+            "id": "row-11"
+          },
+          {
+            "baseline_loss": 225.0,
+            "candidate_loss": 0.0,
+            "directional_improvement": 225.0,
+            "id": "row-12"
+          }
+        ],
+        "result": "positive",
+        "schema_version": "1.0.0",
+        "stochastic_repeats": 0,
+        "tolerance": 1e-09
+      },
+      "oracle": {
+        "baseline": "149",
+        "candidate": "0",
+        "count": 4,
+        "mean": "149",
+        "result": "positive",
+        "variance": "2896"
+      }
+    },
+    {
+      "baseline": "mean-baseline",
+      "candidate": "ordinary-least-squares",
+      "dataset": "positive-linear",
+      "metric": "mae",
+      "observed": {
+        "baseline_score": 12.0,
+        "candidate_score": 0.0,
+        "direction": "minimize",
+        "independence_claim": false,
+        "inference": "descriptive_only",
+        "mean_improvement": 12.0,
+        "metric": "mae",
+        "paired_differences": {
+          "count": 4,
+          "max": 15.0,
+          "mean": 12.0,
+          "min": 9.0,
+          "population_sd": 2.23606797749979
+        },
+        "per_row": [
+          {
+            "baseline_loss": 9.0,
+            "candidate_loss": 0.0,
+            "directional_improvement": 9.0,
+            "id": "row-09"
+          },
+          {
+            "baseline_loss": 11.0,
+            "candidate_loss": 0.0,
+            "directional_improvement": 11.0,
+            "id": "row-10"
+          },
+          {
+            "baseline_loss": 13.0,
+            "candidate_loss": 0.0,
+            "directional_improvement": 13.0,
+            "id": "row-11"
+          },
+          {
+            "baseline_loss": 15.0,
+            "candidate_loss": 0.0,
+            "directional_improvement": 15.0,
+            "id": "row-12"
+          }
+        ],
+        "result": "positive",
+        "schema_version": "1.0.0",
+        "stochastic_repeats": 0,
+        "tolerance": 1e-09
+      },
+      "oracle": {
+        "baseline": "12",
+        "candidate": "0",
+        "count": 4,
+        "mean": "12",
+        "result": "positive",
+        "variance": "5"
+      }
+    },
+    {
+      "baseline": "mean-baseline",
+      "candidate": "ordinary-least-squares",
+      "dataset": "negative-linear",
+      "metric": "mse",
+      "observed": {
+        "baseline_score": 335.25,
+        "candidate_score": 0.0,
+        "direction": "minimize",
+        "independence_claim": false,
+        "inference": "descriptive_only",
+        "mean_improvement": 335.25,
+        "metric": "mse",
+        "paired_differences": {
+          "count": 4,
+          "max": 506.25,
+          "mean": 335.25,
+          "min": 182.25,
+          "population_sd": 121.0826164236634
+        },
+        "per_row": [
+          {
+            "baseline_loss": 182.25,
+            "candidate_loss": 0.0,
+            "directional_improvement": 182.25,
+            "id": "row-09"
+          },
+          {
+            "baseline_loss": 272.25,
+            "candidate_loss": 0.0,
+            "directional_improvement": 272.25,
+            "id": "row-10"
+          },
+          {
+            "baseline_loss": 380.25,
+            "candidate_loss": 0.0,
+            "directional_improvement": 380.25,
+            "id": "row-11"
+          },
+          {
+            "baseline_loss": 506.25,
+            "candidate_loss": 0.0,
+            "directional_improvement": 506.25,
+            "id": "row-12"
+          }
+        ],
+        "result": "positive",
+        "schema_version": "1.0.0",
+        "stochastic_repeats": 0,
+        "tolerance": 1e-09
+      },
+      "oracle": {
+        "baseline": "1341/4",
+        "candidate": "0",
+        "count": 4,
+        "mean": "1341/4",
+        "result": "positive",
+        "variance": "14661"
+      }
+    },
+    {
+      "baseline": "mean-baseline",
+      "candidate": "ordinary-least-squares",
+      "dataset": "negative-linear",
+      "metric": "mae",
+      "observed": {
+        "baseline_score": 18.0,
+        "candidate_score": 0.0,
+        "direction": "minimize",
+        "independence_claim": false,
+        "inference": "descriptive_only",
+        "mean_improvement": 18.0,
+        "metric": "mae",
+        "paired_differences": {
+          "count": 4,
+          "max": 22.5,
+          "mean": 18.0,
+          "min": 13.5,
+          "population_sd": 3.3541019662496847
+        },
+        "per_row": [
+          {
+            "baseline_loss": 13.5,
+            "candidate_loss": 0.0,
+            "directional_improvement": 13.5,
+            "id": "row-09"
+          },
+          {
+            "baseline_loss": 16.5,
+            "candidate_loss": 0.0,
+            "directional_improvement": 16.5,
+            "id": "row-10"
+          },
+          {
+            "baseline_loss": 19.5,
+            "candidate_loss": 0.0,
+            "directional_improvement": 19.5,
+            "id": "row-11"
+          },
+          {
+            "baseline_loss": 22.5,
+            "candidate_loss": 0.0,
+            "directional_improvement": 22.5,
+            "id": "row-12"
+          }
+        ],
+        "result": "positive",
+        "schema_version": "1.0.0",
+        "stochastic_repeats": 0,
+        "tolerance": 1e-09
+      },
+      "oracle": {
+        "baseline": "18",
+        "candidate": "0",
+        "count": 4,
+        "mean": "18",
+        "result": "positive",
+        "variance": "45/4"
+      }
+    },
+    {
+      "baseline": "mean-baseline",
+      "candidate": "ordinary-least-squares",
+      "dataset": "negative-shift",
+      "metric": "mse",
+      "observed": {
+        "baseline_score": 0.0,
+        "candidate_score": 149.0,
+        "direction": "minimize",
+        "independence_claim": false,
+        "inference": "descriptive_only",
+        "mean_improvement": -149.0,
+        "metric": "mse",
+        "paired_differences": {
+          "count": 4,
+          "max": -81.0,
+          "mean": -149.0,
+          "min": -225.0,
+          "population_sd": 53.81449618829484
+        },
+        "per_row": [
+          {
+            "baseline_loss": 0.0,
+            "candidate_loss": 81.0,
+            "directional_improvement": -81.0,
+            "id": "row-09"
+          },
+          {
+            "baseline_loss": 0.0,
+            "candidate_loss": 121.0,
+            "directional_improvement": -121.0,
+            "id": "row-10"
+          },
+          {
+            "baseline_loss": 0.0,
+            "candidate_loss": 169.0,
+            "directional_improvement": -169.0,
+            "id": "row-11"
+          },
+          {
+            "baseline_loss": 0.0,
+            "candidate_loss": 225.0,
+            "directional_improvement": -225.0,
+            "id": "row-12"
+          }
+        ],
+        "result": "negative",
+        "schema_version": "1.0.0",
+        "stochastic_repeats": 0,
+        "tolerance": 1e-09
+      },
+      "oracle": {
+        "baseline": "0",
+        "candidate": "149",
+        "count": 4,
+        "mean": "-149",
+        "result": "negative",
+        "variance": "2896"
+      }
+    },
+    {
+      "baseline": "mean-baseline",
+      "candidate": "ordinary-least-squares",
+      "dataset": "negative-shift",
+      "metric": "mae",
+      "observed": {
+        "baseline_score": 0.0,
+        "candidate_score": 12.0,
+        "direction": "minimize",
+        "independence_claim": false,
+        "inference": "descriptive_only",
+        "mean_improvement": -12.0,
+        "metric": "mae",
+        "paired_differences": {
+          "count": 4,
+          "max": -9.0,
+          "mean": -12.0,
+          "min": -15.0,
+          "population_sd": 2.23606797749979
+        },
+        "per_row": [
+          {
+            "baseline_loss": 0.0,
+            "candidate_loss": 9.0,
+            "directional_improvement": -9.0,
+            "id": "row-09"
+          },
+          {
+            "baseline_loss": 0.0,
+            "candidate_loss": 11.0,
+            "directional_improvement": -11.0,
+            "id": "row-10"
+          },
+          {
+            "baseline_loss": 0.0,
+            "candidate_loss": 13.0,
+            "directional_improvement": -13.0,
+            "id": "row-11"
+          },
+          {
+            "baseline_loss": 0.0,
+            "candidate_loss": 15.0,
+            "directional_improvement": -15.0,
+            "id": "row-12"
+          }
+        ],
+        "result": "negative",
+        "schema_version": "1.0.0",
+        "stochastic_repeats": 0,
+        "tolerance": 1e-09
+      },
+      "oracle": {
+        "baseline": "0",
+        "candidate": "12",
+        "count": 4,
+        "mean": "-12",
+        "result": "negative",
+        "variance": "5"
+      }
+    },
+    {
+      "baseline": "mean-baseline",
+      "candidate": "zero-predictor",
+      "dataset": "positive-linear",
+      "metric": "mse",
+      "observed": {
+        "baseline_score": 149.0,
+        "candidate_score": 201.0,
+        "direction": "minimize",
+        "independence_claim": false,
+        "inference": "descriptive_only",
+        "mean_improvement": -52.0,
+        "metric": "mse",
+        "paired_differences": {
+          "count": 4,
+          "max": -40.0,
+          "mean": -52.0,
+          "min": -64.0,
+          "population_sd": 8.94427190999916
+        },
+        "per_row": [
+          {
+            "baseline_loss": 81.0,
+            "candidate_loss": 121.0,
+            "directional_improvement": -40.0,
+            "id": "row-09"
+          },
+          {
+            "baseline_loss": 121.0,
+            "candidate_loss": 169.0,
+            "directional_improvement": -48.0,
+            "id": "row-10"
+          },
+          {
+            "baseline_loss": 169.0,
+            "candidate_loss": 225.0,
+            "directional_improvement": -56.0,
+            "id": "row-11"
+          },
+          {
+            "baseline_loss": 225.0,
+            "candidate_loss": 289.0,
+            "directional_improvement": -64.0,
+            "id": "row-12"
+          }
+        ],
+        "result": "negative",
+        "schema_version": "1.0.0",
+        "stochastic_repeats": 0,
+        "tolerance": 1e-09
+      },
+      "oracle": {
+        "baseline": "149",
+        "candidate": "201",
+        "count": 4,
+        "mean": "-52",
+        "result": "negative",
+        "variance": "80"
+      }
+    },
+    {
+      "baseline": "mean-baseline",
+      "candidate": "zero-predictor",
+      "dataset": "positive-linear",
+      "metric": "mae",
+      "observed": {
+        "baseline_score": 12.0,
+        "candidate_score": 14.0,
+        "direction": "minimize",
+        "independence_claim": false,
+        "inference": "descriptive_only",
+        "mean_improvement": -2.0,
+        "metric": "mae",
+        "paired_differences": {
+          "count": 4,
+          "max": -2.0,
+          "mean": -2.0,
+          "min": -2.0,
+          "population_sd": 0.0
+        },
+        "per_row": [
+          {
+            "baseline_loss": 9.0,
+            "candidate_loss": 11.0,
+            "directional_improvement": -2.0,
+            "id": "row-09"
+          },
+          {
+            "baseline_loss": 11.0,
+            "candidate_loss": 13.0,
+            "directional_improvement": -2.0,
+            "id": "row-10"
+          },
+          {
+            "baseline_loss": 13.0,
+            "candidate_loss": 15.0,
+            "directional_improvement": -2.0,
+            "id": "row-11"
+          },
+          {
+            "baseline_loss": 15.0,
+            "candidate_loss": 17.0,
+            "directional_improvement": -2.0,
+            "id": "row-12"
+          }
+        ],
+        "result": "negative",
+        "schema_version": "1.0.0",
+        "stochastic_repeats": 0,
+        "tolerance": 1e-09
+      },
+      "oracle": {
+        "baseline": "12",
+        "candidate": "14",
+        "count": 4,
+        "mean": "-2",
+        "result": "negative",
+        "variance": "0"
+      }
+    },
+    {
+      "baseline": "mean-baseline",
+      "candidate": "same-baseline",
+      "dataset": "positive-linear",
+      "metric": "mse",
+      "observed": {
+        "baseline_score": 149.0,
+        "candidate_score": 149.0,
+        "direction": "minimize",
+        "independence_claim": false,
+        "inference": "descriptive_only",
+        "mean_improvement": 0.0,
+        "metric": "mse",
+        "paired_differences": {
+          "count": 4,
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0,
+          "population_sd": 0.0
+        },
+        "per_row": [
+          {
+            "baseline_loss": 81.0,
+            "candidate_loss": 81.0,
+            "directional_improvement": 0.0,
+            "id": "row-09"
+          },
+          {
+            "baseline_loss": 121.0,
+            "candidate_loss": 121.0,
+            "directional_improvement": 0.0,
+            "id": "row-10"
+          },
+          {
+            "baseline_loss": 169.0,
+            "candidate_loss": 169.0,
+            "directional_improvement": 0.0,
+            "id": "row-11"
+          },
+          {
+            "baseline_loss": 225.0,
+            "candidate_loss": 225.0,
+            "directional_improvement": 0.0,
+            "id": "row-12"
+          }
+        ],
+        "result": "inconclusive",
+        "schema_version": "1.0.0",
+        "stochastic_repeats": 0,
+        "tolerance": 1e-09
+      },
+      "oracle": {
+        "baseline": "149",
+        "candidate": "149",
+        "count": 4,
+        "mean": "0",
+        "result": "inconclusive",
+        "variance": "0"
+      }
+    },
+    {
+      "baseline": "mean-baseline",
+      "candidate": "same-baseline",
+      "dataset": "positive-linear",
+      "metric": "mae",
+      "observed": {
+        "baseline_score": 12.0,
+        "candidate_score": 12.0,
+        "direction": "minimize",
+        "independence_claim": false,
+        "inference": "descriptive_only",
+        "mean_improvement": 0.0,
+        "metric": "mae",
+        "paired_differences": {
+          "count": 4,
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0,
+          "population_sd": 0.0
+        },
+        "per_row": [
+          {
+            "baseline_loss": 9.0,
+            "candidate_loss": 9.0,
+            "directional_improvement": 0.0,
+            "id": "row-09"
+          },
+          {
+            "baseline_loss": 11.0,
+            "candidate_loss": 11.0,
+            "directional_improvement": 0.0,
+            "id": "row-10"
+          },
+          {
+            "baseline_loss": 13.0,
+            "candidate_loss": 13.0,
+            "directional_improvement": 0.0,
+            "id": "row-11"
+          },
+          {
+            "baseline_loss": 15.0,
+            "candidate_loss": 15.0,
+            "directional_improvement": 0.0,
+            "id": "row-12"
+          }
+        ],
+        "result": "inconclusive",
+        "schema_version": "1.0.0",
+        "stochastic_repeats": 0,
+        "tolerance": 1e-09
+      },
+      "oracle": {
+        "baseline": "12",
+        "candidate": "12",
+        "count": 4,
+        "mean": "0",
+        "result": "inconclusive",
+        "variance": "0"
+      }
+    }
+  ],
+  "input_hashes": {
+    "R01-PLAN.json": "171fa563602b6a932ffcdf1dbb9a9f3eedf91018fe0231d5d29f5e5ecac5f471",
+    "numerical/CONTROLS.json": "c5b4876edc368d51c4770a9945205ed160d4cb40f3d2168b0805e01d8172320a",
+    "numerical/MANIFEST.json": "f680fc775be09eab43cd90718f1af817a124f1c5b9afb25a9a599dbb1bbc1b2e",
+    "numerical/README.md": "fe0ee66365da94f826dbfea5b319637a3ae86ea0a58459d8eed91a5213a28ef8",
+    "numerical/__init__.py": "c78d5ca0d56d9af1c9d249be1c493b5568d1875da34ac6324d293f42a4ab8be8",
+    "numerical/adapter.py": "fba9c0ab4056f23c22244bd0a5484bd533bb85cc6c52ad5409a6f851a977a947",
+    "numerical/data.py": "db83d4cd8db5a8c71e8833eb462cb0bfb7e3516ef9894de0694e8509a0bd0964",
+    "numerical/datasets/negative-linear.json": "1b638cd91efa154b3f5aeba8c554a3f69554edb7901162439f32c0b9ebd97a4a",
+    "numerical/datasets/negative-shift.json": "e074e63b15693400cdd7b8161dd4016b1180df9396f5337204881b0df4b62b59",
+    "numerical/datasets/positive-linear.json": "869c492eb8c5837c80fcab40e3c4abf2fc6eb28bc540de21146930627000ebdd",
+    "numerical/metrics.py": "603683237421a85f284cd8fa33bef68aa1d60a1da5d0f9bfa464df95f7377374",
+    "numerical/tests/test_numerical.py": "c0e27e74363449ad418e431025647f13f7dc4faa587ce554d9cec3bfa6552560",
+    "src/research_toolkit/protocols.py": "d1b25eef5168dce4f6741507b623fc7020a32a0d573b6a5ef6d8ae08211a2e5f"
+  },
+  "limitations": [
+    "Local inspectable synthetic controls; no population inference or benchmark-superiority claim",
+    "Direct module review only; actual runner reports, aggregation, export separation and runtime protocol checks are pending"
+  ],
+  "oracle": "Exact Fraction normal equations and per-row loss arithmetic; production imports supply observations only",
+  "paper_replication_claim": false,
+  "product_gate_acceptance_inferred": false,
+  "review": "independent-authored-numerical-diagnostics",
+  "reviewer_role": "Separate agent from the numerical implementation and root runner",
+  "schema_version": "1.0.0",
+  "source_scope": "Product-owned authored controls, not original delivery execution or paper replication",
+  "status": "pass"
+}

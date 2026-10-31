@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "final_package_manifest_sha256": "2e91b7a37eef922cd177d76ab4c8d9efca83fbafce5f12c5050f7a7c81ab0f78",
+  "status": "pass_within_independent_release_review_scope",
+  "previous_operational_acceptance": {
+    "manifest_sha256": "d93c0e3199c3bdc1d5d493d291ea3ed79a6425d40565e5b1ad011c590c754899",
+    "passed": 87,
+    "total": 87,
+    "evidence": "PACKAGE-ACCEPTANCE-d93.json"
+  },
+  "final_focused_acceptance": {
+    "manifest_sha256": "2e91b7a37eef922cd177d76ab4c8d9efca83fbafce5f12c5050f7a7c81ab0f78",
+    "passed": 17,
+    "total": 17,
+    "evidence": "FINAL-LABEL-ACCEPTANCE.json"
+  },
+  "change_isolation": {
+    "name": "only_report_renderer_changed",
+    "passed": true,
+    "changed": [
+      "research_toolkit/reporting.py"
+    ]
+  },
+  "resolved_finding": {
+    "code": "misleading_observation_label",
+    "old": "Final observations",
+    "new": "Scored observations",
+    "verified_native_count": 14
+  },
+  "process_tests": {
+    "evidence": "PROCESS-ACCEPTANCE-d93.json",
+    "actual_processes": true,
+    "controls": [
+      "timeout",
+      "cancellation",
+      "output cap",
+      "512 MiB memory cap",
+      "one active process",
+      "environment allowlist",
+      "missing runtime refusal"
+    ],
+    "scope": "fixed trusted local helpers; no OS filesystem or network isolation claim"
+  },
+  "credential_pattern_scan": {
+    "passed": true,
+    "files_scanned": 703,
+    "values_recorded": false,
+    "evidence": "FINAL-SECRET-SCAN.json"
+  },
+  "real_model_calls": 0,
+  "application_network_calls": 0,
+  "limits": [
+    "87 operational assertions were performed on the pre-label package; executable/core/numerical/foundation files are proven unchanged in the final package.",
+    "17 focused assertions directly exercised the final package, including the corrected native report.",
+    "Overall experiment release gates and all-preset outcomes remain the root workflow and scientific review responsibility."
+  ]
+}

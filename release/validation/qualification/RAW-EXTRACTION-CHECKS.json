@@ -1,0 +1,193 @@
+{
+  "schema_version": "1.0.0",
+  "status": "pass",
+  "adapter_execution_performed": false,
+  "method": "Independently aggregate frozen raw outcomes against literal expectations; compare reported totals",
+  "cases_verified": 10,
+  "results": [
+    {
+      "component_id": "D0001/C0081-03",
+      "case": "baseline",
+      "baseline_file": "baselines/D0001_C0081-03--baseline.json",
+      "canonical_payload_sha256": "e41e2f6f01cacce2917aff0bf41d061cd18e2ebd18aa03b661a0442a51650ceb",
+      "independent_counts": {
+        "domain_passed": 4,
+        "domain_total": 4,
+        "numeric_absolute_error_sum": 0,
+        "numeric_case_total": 3
+      }
+    },
+    {
+      "component_id": "D0001/C0081-03",
+      "case": "negative-control",
+      "baseline_file": "baselines/D0001_C0081-03--negative-control.json",
+      "canonical_payload_sha256": "5f1bf44b94ad90039629f945b42d3555e202d72c64f3bee5af047f3e75979b1a",
+      "independent_counts": {
+        "domain_passed": 1,
+        "domain_total": 4,
+        "numeric_absolute_error_sum": 411,
+        "numeric_case_total": 3
+      }
+    },
+    {
+      "component_id": "D0007/C0322-01",
+      "case": "all",
+      "baseline_file": "baselines/D0007_C0322-01--all.json",
+      "canonical_payload_sha256": "c4f31385365617166437778d5e2836395f713f0b1a0962a9b3b9273542052034",
+      "independent_counts": {
+        "initial": {
+          "passed": 11,
+          "total": 14,
+          "F2P_passed": 0,
+          "F2P_total": 3,
+          "P2P_passed": 11,
+          "P2P_total": 11
+        },
+        "correct": {
+          "passed": 14,
+          "total": 14,
+          "F2P_passed": 3,
+          "F2P_total": 3,
+          "P2P_passed": 11,
+          "P2P_total": 11
+        },
+        "regression": {
+          "passed": 10,
+          "total": 14,
+          "F2P_passed": 3,
+          "F2P_total": 3,
+          "P2P_passed": 7,
+          "P2P_total": 11
+        }
+      }
+    },
+    {
+      "component_id": "D0007/C0322-01",
+      "case": "initial",
+      "baseline_file": "baselines/D0007_C0322-01--initial.json",
+      "canonical_payload_sha256": "7328dfc6d783618731f9fdea705ec44c6aafc6160f257f83e8ccee8435aa295f",
+      "independent_counts": {
+        "initial": {
+          "passed": 11,
+          "total": 14,
+          "F2P_passed": 0,
+          "F2P_total": 3,
+          "P2P_passed": 11,
+          "P2P_total": 11
+        }
+      }
+    },
+    {
+      "component_id": "D0007/C0322-01",
+      "case": "correct",
+      "baseline_file": "baselines/D0007_C0322-01--correct.json",
+      "canonical_payload_sha256": "451a31a1a7a65b20ab6a23de1bc05af980d4f662a738f29a1b3e2101accb1259",
+      "independent_counts": {
+        "correct": {
+          "passed": 14,
+          "total": 14,
+          "F2P_passed": 3,
+          "F2P_total": 3,
+          "P2P_passed": 11,
+          "P2P_total": 11
+        }
+      }
+    },
+    {
+      "component_id": "D0007/C0322-01",
+      "case": "regression",
+      "baseline_file": "baselines/D0007_C0322-01--regression.json",
+      "canonical_payload_sha256": "c48563840389547c3d5e45b3342a540911c85831660456028405df689019014c",
+      "independent_counts": {
+        "regression": {
+          "passed": 10,
+          "total": 14,
+          "F2P_passed": 3,
+          "F2P_total": 3,
+          "P2P_passed": 7,
+          "P2P_total": 11
+        }
+      }
+    },
+    {
+      "component_id": "D0007/C0322-02",
+      "case": "all",
+      "baseline_file": "baselines/D0007_C0322-02--all.json",
+      "canonical_payload_sha256": "984411e00f0548c2bc0ea241159fba41bd04412f58a1f84c625f41ee5c33fbfd",
+      "independent_counts": {
+        "initial": {
+          "passed": 11,
+          "total": 14,
+          "F2P_passed": 0,
+          "F2P_total": 3,
+          "P2P_passed": 11,
+          "P2P_total": 11
+        },
+        "correct": {
+          "passed": 14,
+          "total": 14,
+          "F2P_passed": 3,
+          "F2P_total": 3,
+          "P2P_passed": 11,
+          "P2P_total": 11
+        },
+        "regression": {
+          "passed": 10,
+          "total": 14,
+          "F2P_passed": 3,
+          "F2P_total": 3,
+          "P2P_passed": 7,
+          "P2P_total": 11
+        }
+      }
+    },
+    {
+      "component_id": "D0007/C0322-02",
+      "case": "initial",
+      "baseline_file": "baselines/D0007_C0322-02--initial.json",
+      "canonical_payload_sha256": "10713f71eeb7f3d5f7404806d7304ae50e3fdccf2f23748c4e60dcbd0d88ea7a",
+      "independent_counts": {
+        "initial": {
+          "passed": 11,
+          "total": 14,
+          "F2P_passed": 0,
+          "F2P_total": 3,
+          "P2P_passed": 11,
+          "P2P_total": 11
+        }
+      }
+    },
+    {
+      "component_id": "D0007/C0322-02",
+      "case": "correct",
+      "baseline_file": "baselines/D0007_C0322-02--correct.json",
+      "canonical_payload_sha256": "7a7c0f145936a0614a5859559117d0b714a60b23574ad1b5005d7f522da880fe",
+      "independent_counts": {
+        "correct": {
+          "passed": 14,
+          "total": 14,
+          "F2P_passed": 3,
+          "F2P_total": 3,
+          "P2P_passed": 11,
+          "P2P_total": 11
+        }
+      }
+    },
+    {
+      "component_id": "D0007/C0322-02",
+      "case": "regression",
+      "baseline_file": "baselines/D0007_C0322-02--regression.json",
+      "canonical_payload_sha256": "03775bb184c8eca4c6957e2ed6e162e7078bb6def7816ab454b75e6bb63690d0",
+      "independent_counts": {
+        "regression": {
+          "passed": 10,
+          "total": 14,
+          "F2P_passed": 3,
+          "F2P_total": 3,
+          "P2P_passed": 7,
+          "P2P_total": 11
+        }
+      }
+    }
+  ]
+}

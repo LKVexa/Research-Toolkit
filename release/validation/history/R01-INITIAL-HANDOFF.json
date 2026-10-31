@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0.0",
+  "gate": "R01",
+  "result": "pass",
+  "recorded_at_utc": "2026-10-31T04:54:33.0483877Z",
+  "foundation_manifest_sha256": "e01d3f340239f4abe0daa27cb3e7c64190f95f4f3a0419f493bc14e7b07d571d",
+  "initial_app_manifest_sha256": "94183e921ab2b3bdd239cfefa36241513b31907991dc3a7d05573ef73ea752c9",
+  "scope": "Eight bounded experiment profiles, ten sample protocols; fixture/authored diagnostics only",
+  "qualified_sources": [
+    "D0001/C0081-03",
+    "D0007/C0322-01"
+  ],
+  "data_boundary": "Development labels and final features enter numerical methods; final labels evaluated separately",
+  "protocol_frozen_before_first_run": true,
+  "blocked": [
+    "PC-Winter execution",
+    "paper-scale replication",
+    "arbitrary imported commands"
+  ],
+  "next": "Execute full workflows and independently test evidence/reporting boundaries"
+}

@@ -1,0 +1,380 @@
+{
+  "adapter_calls_reexecuted_by_review": 0,
+  "all_outcome_categories_verified": [
+    "positive",
+    "negative",
+    "inconclusive"
+  ],
+  "app_manifest_sha256": "2e91b7a37eef922cd177d76ab4c8d9efca83fbafce5f12c5050f7a7c81ab0f78",
+  "case_count_note": "D0007 14 scored cases include 8 development and 6 final-evaluation cases; they are not 14 independent holdout observations",
+  "confidence_interval_claim": false,
+  "created_at_utc": "2026-10-31T05:15:46.896371+00:00",
+  "deterministic_repetitions_do_not_multiply_sample_counts": true,
+  "input_inventory_digests": {
+    "app": "160ec11026a3511634bcb4f488a79d14147e49589c75cd59d6df201476a600f6",
+    "exports": "e949fc3db3bfb1b0c3e9b9e2ec82f3939838c59f9d6aca55c4a5ae6113cdbf45",
+    "state": "7244085d76dc8d4e210d5e1f29b93efd87ac3965b2fa0a0d660e994595c8fa60"
+  },
+  "limitations": [
+    "Inspectably authored controls and existing qualified fixture observations; no scientific paper replication",
+    "Timestamps establish recorded local freeze/run ordering, not a cryptographically trusted time service",
+    "No new model calls, method executions or inferential statistical tests performed"
+  ],
+  "native_oracles": {
+    "d1_file_sha256": "ff42aa8d4d02a2a591fa3cce50bfa5e2abd5d303a05c827416024738b1d947a5",
+    "d1_random_recount": "Expected 605 is the qualified frozen fixture oracle, not newly regenerated random data",
+    "d7_expectations_rederived_from_arguments": true,
+    "d7_file_sha256": "1603a9c1e34ee7dd49f26a95664d6e6e5fefa6a3a7d7abc74b4f8d2f63ec7ab5"
+  },
+  "paper_replication_claim": false,
+  "production_modules_imported": false,
+  "repetitions_per_run": 2,
+  "results": [
+    {
+      "comparison": "inconclusive",
+      "exact_recomputed_repetitions": [
+        {
+          "baseline_score": "1",
+          "candidate_score": "1",
+          "count": 4,
+          "max": "0",
+          "mean_improvement": "0",
+          "min": "0",
+          "population_variance": "0",
+          "result": "inconclusive"
+        },
+        {
+          "baseline_score": "1",
+          "candidate_score": "1",
+          "count": 4,
+          "max": "0",
+          "mean_improvement": "0",
+          "min": "0",
+          "population_variance": "0",
+          "result": "inconclusive"
+        }
+      ],
+      "frozen_before_started": true,
+      "kind": "token",
+      "paired_dispersion_verified": true,
+      "private_fields_absent_public_export": true,
+      "receipt_sha256": "c57448e714fb0de19a3f3bb88c4f7b937006b3b85fa77f1b766e434bca5ea6aa",
+      "repetitions": 2,
+      "run_id": "token-equivalence",
+      "unique_scored_observations": 4
+    },
+    {
+      "comparison": "negative",
+      "exact_recomputed_repetitions": [
+        {
+          "baseline_score": "1",
+          "candidate_score": "1/4",
+          "count": 4,
+          "max": "0",
+          "mean_improvement": "-3/4",
+          "min": "-1",
+          "population_variance": "3/16",
+          "result": "negative"
+        },
+        {
+          "baseline_score": "1",
+          "candidate_score": "1/4",
+          "count": 4,
+          "max": "0",
+          "mean_improvement": "-3/4",
+          "min": "-1",
+          "population_variance": "3/16",
+          "result": "negative"
+        }
+      ],
+      "frozen_before_started": true,
+      "kind": "token",
+      "paired_dispersion_verified": true,
+      "private_fields_absent_public_export": true,
+      "receipt_sha256": "610257e2014b5d2cb087371791d8b935d726eab83dd27c5c00e1e2dc6afccb3c",
+      "repetitions": 2,
+      "run_id": "token-negative",
+      "unique_scored_observations": 4
+    },
+    {
+      "comparison": "positive",
+      "exact_recomputed_repetitions": [
+        {
+          "baseline_score": "11/14",
+          "candidate_score": "1",
+          "count": 14,
+          "max": "1",
+          "mean_improvement": "3/14",
+          "min": "0",
+          "population_variance": "33/196",
+          "result": "positive"
+        },
+        {
+          "baseline_score": "11/14",
+          "candidate_score": "1",
+          "count": 14,
+          "max": "1",
+          "mean_improvement": "3/14",
+          "min": "0",
+          "population_variance": "33/196",
+          "result": "positive"
+        }
+      ],
+      "frozen_before_started": true,
+      "kind": "repair",
+      "paired_dispersion_verified": true,
+      "private_fields_absent_public_export": true,
+      "receipt_sha256": "0069a207e5b65d4aa5885aeb8f80f3670148eb5b4aabf11e5620f03bab370749",
+      "repetitions": 2,
+      "run_id": "repair-positive",
+      "unique_scored_observations": 14
+    },
+    {
+      "comparison": "negative",
+      "exact_recomputed_repetitions": [
+        {
+          "baseline_score": "11/14",
+          "candidate_score": "5/7",
+          "count": 14,
+          "max": "1",
+          "mean_improvement": "-1/14",
+          "min": "-1",
+          "population_variance": "97/196",
+          "result": "negative"
+        },
+        {
+          "baseline_score": "11/14",
+          "candidate_score": "5/7",
+          "count": 14,
+          "max": "1",
+          "mean_improvement": "-1/14",
+          "min": "-1",
+          "population_variance": "97/196",
+          "result": "negative"
+        }
+      ],
+      "frozen_before_started": true,
+      "kind": "repair",
+      "paired_dispersion_verified": true,
+      "private_fields_absent_public_export": true,
+      "receipt_sha256": "93bd4d15720741aef1f9abf16a236ed09c68bfadc8a5b57e0c9c7306699743b2",
+      "repetitions": 2,
+      "run_id": "repair-negative",
+      "unique_scored_observations": 14
+    },
+    {
+      "comparison": "inconclusive",
+      "exact_recomputed_repetitions": [
+        {
+          "baseline_score": "11/14",
+          "candidate_score": "11/14",
+          "count": 14,
+          "max": "0",
+          "mean_improvement": "0",
+          "min": "0",
+          "population_variance": "0",
+          "result": "inconclusive"
+        },
+        {
+          "baseline_score": "11/14",
+          "candidate_score": "11/14",
+          "count": 14,
+          "max": "0",
+          "mean_improvement": "0",
+          "min": "0",
+          "population_variance": "0",
+          "result": "inconclusive"
+        }
+      ],
+      "frozen_before_started": true,
+      "kind": "repair",
+      "paired_dispersion_verified": true,
+      "private_fields_absent_public_export": true,
+      "receipt_sha256": "ebbda871c1c35b9d2515e4dbfe04bb0b6bf20a52665d534e09004d3c063d8515",
+      "repetitions": 2,
+      "run_id": "repair-equivalence",
+      "unique_scored_observations": 14
+    },
+    {
+      "comparison": "positive",
+      "exact_recomputed_repetitions": [
+        {
+          "baseline_score": "149",
+          "candidate_score": "0",
+          "count": 4,
+          "max": "225",
+          "mean_improvement": "149",
+          "min": "81",
+          "population_variance": "2896",
+          "result": "positive"
+        },
+        {
+          "baseline_score": "149",
+          "candidate_score": "0",
+          "count": 4,
+          "max": "225",
+          "mean_improvement": "149",
+          "min": "81",
+          "population_variance": "2896",
+          "result": "positive"
+        }
+      ],
+      "frozen_before_started": true,
+      "kind": "numeric",
+      "paired_dispersion_verified": true,
+      "private_fields_absent_public_export": true,
+      "receipt_sha256": "74654080bccc2df5d946fcf1f7b9d4632f43aa20429c387b1841440777c4feb0",
+      "repetitions": 2,
+      "run_id": "linear-positive",
+      "unique_scored_observations": 4
+    },
+    {
+      "comparison": "positive",
+      "exact_recomputed_repetitions": [
+        {
+          "baseline_score": "1341/4",
+          "candidate_score": "0",
+          "count": 4,
+          "max": "2025/4",
+          "mean_improvement": "1341/4",
+          "min": "729/4",
+          "population_variance": "14661",
+          "result": "positive"
+        },
+        {
+          "baseline_score": "1341/4",
+          "candidate_score": "0",
+          "count": 4,
+          "max": "2025/4",
+          "mean_improvement": "1341/4",
+          "min": "729/4",
+          "population_variance": "14661",
+          "result": "positive"
+        }
+      ],
+      "frozen_before_started": true,
+      "kind": "numeric",
+      "paired_dispersion_verified": true,
+      "private_fields_absent_public_export": true,
+      "receipt_sha256": "460011caba65b16512bd3ca3726283828f0f5a23e9bfaf073b1e66be54253f45",
+      "repetitions": 2,
+      "run_id": "negative-slope-positive",
+      "unique_scored_observations": 4
+    },
+    {
+      "comparison": "negative",
+      "exact_recomputed_repetitions": [
+        {
+          "baseline_score": "0",
+          "candidate_score": "149",
+          "count": 4,
+          "max": "-81",
+          "mean_improvement": "-149",
+          "min": "-225",
+          "population_variance": "2896",
+          "result": "negative"
+        },
+        {
+          "baseline_score": "0",
+          "candidate_score": "149",
+          "count": 4,
+          "max": "-81",
+          "mean_improvement": "-149",
+          "min": "-225",
+          "population_variance": "2896",
+          "result": "negative"
+        }
+      ],
+      "frozen_before_started": true,
+      "kind": "numeric",
+      "paired_dispersion_verified": true,
+      "private_fields_absent_public_export": true,
+      "receipt_sha256": "864eb1de5ec909da93af856c0ea52304de7da8844a5f928960a6bcd0b667e801",
+      "repetitions": 2,
+      "run_id": "distribution-shift-negative",
+      "unique_scored_observations": 4
+    },
+    {
+      "comparison": "negative",
+      "exact_recomputed_repetitions": [
+        {
+          "baseline_score": "149",
+          "candidate_score": "201",
+          "count": 4,
+          "max": "-40",
+          "mean_improvement": "-52",
+          "min": "-64",
+          "population_variance": "80",
+          "result": "negative"
+        },
+        {
+          "baseline_score": "149",
+          "candidate_score": "201",
+          "count": 4,
+          "max": "-40",
+          "mean_improvement": "-52",
+          "min": "-64",
+          "population_variance": "80",
+          "result": "negative"
+        }
+      ],
+      "frozen_before_started": true,
+      "kind": "numeric",
+      "paired_dispersion_verified": true,
+      "private_fields_absent_public_export": true,
+      "receipt_sha256": "1fc61146f11cf99c734f063f985fc41ca7000b6202ddf8cdd34aa2a2d97415e2",
+      "repetitions": 2,
+      "run_id": "zero-negative",
+      "unique_scored_observations": 4
+    },
+    {
+      "comparison": "inconclusive",
+      "exact_recomputed_repetitions": [
+        {
+          "baseline_score": "149",
+          "candidate_score": "149",
+          "count": 4,
+          "max": "0",
+          "mean_improvement": "0",
+          "min": "0",
+          "population_variance": "0",
+          "result": "inconclusive"
+        },
+        {
+          "baseline_score": "149",
+          "candidate_score": "149",
+          "count": 4,
+          "max": "0",
+          "mean_improvement": "0",
+          "min": "0",
+          "population_variance": "0",
+          "result": "inconclusive"
+        }
+      ],
+      "frozen_before_started": true,
+      "kind": "numeric",
+      "paired_dispersion_verified": true,
+      "private_fields_absent_public_export": true,
+      "receipt_sha256": "b3519d154c58db42e5c6d05103aacb33760237486b4e17cc8ff1c98e29fe6b46",
+      "repetitions": 2,
+      "run_id": "numeric-equivalence",
+      "unique_scored_observations": 4
+    }
+  ],
+  "review": "independent-final-saved-run-science",
+  "reviewed_file_counts": {
+    "app": 573,
+    "exports": 30,
+    "state": 361
+  },
+  "runs_reviewed": 10,
+  "schema_version": "1.0.0",
+  "scientific_oracle": "Exact rational normal equations and loss arithmetic; native raw observations scored against independent literal/math expectations",
+  "status": "pass",
+  "unchanged_before_after": {
+    "app": true,
+    "final_saved_state": true,
+    "public_exports": true
+  },
+  "workflow_marker_sha256": "3ba889c4303ad23fe34d5c280e85476ab999c5e61a2cec51a02a584e56ea2e53"
+}

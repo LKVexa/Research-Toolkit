@@ -1,0 +1,107 @@
+[
+  {
+    "name": "final_doctor",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "doctor"
+    ],
+    "exit_code": 0,
+    "seconds": 6.281
+  },
+  {
+    "name": "final_powershell_default",
+    "argv": [
+      "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "-NoProfile",
+      "-ExecutionPolicy",
+      "Bypass",
+      "-File",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\Start-Research.ps1"
+    ],
+    "exit_code": 0,
+    "seconds": 6.313
+  },
+  {
+    "name": "final_cmd_catalog",
+    "argv": [
+      "C:\\WINDOWS\\System32\\cmd.exe",
+      "/d",
+      "/s",
+      "/c",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\Research-Toolkit.cmd catalog --query repair"
+    ],
+    "exit_code": 0,
+    "seconds": 3.422
+  },
+  {
+    "name": "final_native_prepare",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "prepare",
+      "--preset",
+      "repair-equivalence",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\label-2bc1b6d5\\state"
+    ],
+    "exit_code": 0,
+    "seconds": 13.5
+  },
+  {
+    "name": "final_native_run",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "run",
+      "--protocol",
+      "repair-equivalence--1.0.0",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\label-2bc1b6d5\\state",
+      "--run-id",
+      "native-label-01"
+    ],
+    "exit_code": 0,
+    "seconds": 7.125
+  },
+  {
+    "name": "final_native_verify",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "verify",
+      "--run-id",
+      "native-label-01",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\label-2bc1b6d5\\state"
+    ],
+    "exit_code": 0,
+    "seconds": 4.547
+  },
+  {
+    "name": "final_native_export",
+    "argv": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Research_Replication_Toolkit_v0.1.0-rc.1\\app\\research.py",
+      "export",
+      "--run-id",
+      "native-label-01",
+      "--state",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\label-2bc1b6d5\\state",
+      "--destination",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\rt-package-qa\\label-2bc1b6d5\\public report"
+    ],
+    "exit_code": 0,
+    "seconds": 23.125
+  }
+]

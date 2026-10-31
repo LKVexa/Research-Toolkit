@@ -1,0 +1,3949 @@
+{
+  "schema_version": "1.0.0",
+  "foundation_manifest_sha256": "e01d3f340239f4abe0daa27cb3e7c64190f95f4f3a0419f493bc14e7b07d571d",
+  "scope": "Execution qualification is independent of historical catalog completion",
+  "qualified_component_count": 3,
+  "components": [
+    {
+      "component_id": "D0001/C0015-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/C0015-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/C0015-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/C0064-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/C0064-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/C0064-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/C0064-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/C0079-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/C0079-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/C0079-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/C0079-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/C0081-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/C0081-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/C0081-03",
+      "kind": "experiment_fixture",
+      "execution_enabled": true,
+      "reason": "Pinned foundation adapter and frozen raw fixture evidence qualified for descriptive comparison only.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": [
+        "baseline",
+        "negative-control"
+      ]
+    },
+    {
+      "component_id": "D0001/C0081-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/C0085-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/C0085-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/C0085-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/C0086-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/C0086-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/C0086-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/P0062-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/P0062-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/P0062-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/P0062-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/P0062-05",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/P0299-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/P0299-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/P0299-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/P0299-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/P0299-05",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/P0304-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/P0304-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/P0304-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/P0304-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/P0304-05",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/P0304-06",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/P0370-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/P0370-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/P0370-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/P0370-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/P0392-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/P0392-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/P0392-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/P0392-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/P0517-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/P0517-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/P0592-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/P0592-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/P0592-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0001/P0592-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0002/C0491-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0002/C0491-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0002/C0491-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0002/P0009-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0002/P0009-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0002/P0113-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "PC-Winter remains blocked: no qualified adapter; historical method, ablation and convergence failures remain unresolved; synthetic SBM data is not the original benchmark.",
+      "original_status": "failed",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0002/P0113-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "PC-Winter remains blocked: no qualified adapter; historical method, ablation and convergence failures remain unresolved; synthetic SBM data is not the original benchmark.",
+      "original_status": "failed",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0002/P0113-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "PC-Winter remains blocked: no qualified adapter; historical method, ablation and convergence failures remain unresolved; synthetic SBM data is not the original benchmark.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0002/P0113-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "PC-Winter remains blocked: no qualified adapter; historical method, ablation and convergence failures remain unresolved; synthetic SBM data is not the original benchmark.",
+      "original_status": "failed",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0002/P0289-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0002/P0289-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0003/C0156-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0003/C0496-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0003/C0496-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0003/P0020-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0003/P0020-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0003/P0020-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0003/P0020-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0003/P0020-05",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0003/P0020-06",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0003/P0026-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0003/P0026-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0003/P0026-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0003/P0030-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0003/P0030-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0003/P0200-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0003/P0200-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0003/P0200-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0003/P0200-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0003/P0225-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0003/P0249-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0003/P0249-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0003/P0249-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0003/P0249-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0003/P0328-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0003/P0328-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0003/P0328-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0003/P0328-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0003/P0331-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0003/P0331-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0003/P0331-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0003/P0331-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0003/P0350-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0003/P0350-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0003/P0559-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0003/P0559-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0003/P0559-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0003/P0559-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0003/P0559-05",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0003/P0559-06",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0004/P0267-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0004/P0267-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0004/P0361-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0004/P0361-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0004/P0446-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0004/P0446-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0004/P0463-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0004/P0463-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0004/P0463-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0004/P0581-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0004/P0581-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0004/P0581-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0004/P0590-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0004/P0590-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0004/P0597-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0004/P0597-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0004/P0597-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "blocked",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0004/P0597-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "blocked",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0004/P0597-05",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "blocked",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0004/P0598-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0004/P0598-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0004/T37-C035-S01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0004/T37-C035-S02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0004/T37-C035-S03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0004/T37-C035-S04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0004/T37-C035-S05",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0004/T37-C035-S06",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0004/T37-C035-S07",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0004/T37-C035-S08",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0004/T37-C035-S09",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0004/T37-C035-S10",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0004/T37-C035-S11",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0004/T37-C035-S12",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0004/T37-C035-S13",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0004/T37-C035-S14",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0004/T37-C035-S15",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0004/T37-C035-S16",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/C0026-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/C0026-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/C0026-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/C0026-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/C0094-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/C0094-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/C0094-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/C0094-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/C0094-05",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/C0107-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/C0107-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/C0107-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/C0107-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/C0175-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/C0175-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/C0175-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/C0295-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/C0295-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/C0295-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/C0295-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/C0323-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/C0323-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/C0336-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/C0336-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0037-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0037-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0037-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0037-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0040-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0040-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0040-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0040-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0040-05",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0059-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0059-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0059-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0073-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0073-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0073-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0087-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0087-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0087-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0087-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0087-05",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0115-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0115-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0115-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0154-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0154-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0154-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0154-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0159-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0159-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0159-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0159-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0166-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0166-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0166-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0166-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0180-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0180-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0180-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0180-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0180-05",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0196-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0196-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0204-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0204-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0204-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0204-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0217-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0217-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0217-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0231-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0231-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0261-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0261-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0261-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0262-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0262-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0262-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0262-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0262-05",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0293-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0293-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0293-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0385-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0385-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0385-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0385-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0442-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0442-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0442-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0442-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0468-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0468-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0514-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0518-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0518-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0518-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0518-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0521-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0521-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0521-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0521-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0544-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0544-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0544-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0544-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0547-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0547-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0547-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0547-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0549-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0549-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0549-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0549-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0549-05",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0549-06",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0566-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0566-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0566-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0574-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0574-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0574-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0574-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0585-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0585-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0585-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0585-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0585-05",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0585-06",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0605-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0605-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0605-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0605-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0005/P0605-05",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0006/P0028-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0006/P0028-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0006/P0028-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0006/P0257-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0006/P0257-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0006/P0257-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0006/P0257-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0006/P0257-05",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0006/P0257-06",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0006/P0294-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0006/P0294-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0006/P0294-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0006/P0294-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0006/P0429-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0006/P0429-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0006/P0465-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0006/P0465-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0006/P0465-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0006/P0531-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0006/P0531-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0006/P0531-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0006/P0531-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0006/P0531-05",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0006/P0551-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0006/P0551-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0006/P0551-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/C0322-01",
+      "kind": "experiment_fixture",
+      "execution_enabled": true,
+      "reason": "Pinned foundation adapter and frozen raw fixture evidence qualified for descriptive comparison only.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": [
+        "initial",
+        "correct",
+        "regression"
+      ]
+    },
+    {
+      "component_id": "D0007/C0322-02",
+      "kind": "experiment_fixture",
+      "execution_enabled": true,
+      "reason": "Pinned foundation adapter and frozen raw fixture evidence qualified for descriptive comparison only.",
+      "original_status": "complete",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": [
+        "initial",
+        "correct",
+        "regression"
+      ]
+    },
+    {
+      "component_id": "D0007/P0027-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0027-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0027-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0027-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0027-05",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0027-06",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0034-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0034-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0034-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0082-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0082-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0117-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0117-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0120-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0120-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0193-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0193-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0193-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0254-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0254-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0254-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0254-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0265-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0265-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0265-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0265-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0265-05",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0269-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0269-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0269-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0270-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0270-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0270-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0270-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0279-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0279-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0279-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0279-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0279-05",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0288-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0288-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0288-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0288-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0368-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0368-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0368-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0368-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0403-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0403-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0403-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0486-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0486-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0486-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0486-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0498-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0498-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0498-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0498-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0575-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0575-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0575-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0575-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0589-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0589-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0589-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0589-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0589-05",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0589-06",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0591-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0007/P0591-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0008/C0126-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0008/C0126-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0008/C0126-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0008/C0126-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0008/C0127-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0008/C0127-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0008/C0127-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0008/C0127-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0008/C0128-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0008/C0128-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0008/C0128-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0008/C0128-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0008/C0129-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0008/C0129-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0008/C0129-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0008/C0129-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0008/C0140-01",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0008/C0140-02",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0008/C0140-03",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    },
+    {
+      "component_id": "D0008/C0140-04",
+      "kind": "catalog_only",
+      "execution_enabled": false,
+      "reason": "No individually qualified executable adapter in the frozen foundation; catalog status and historical checks are insufficient for experiment execution.",
+      "original_status": "partial",
+      "original_g2": "fail",
+      "scientific_validation": "unverified",
+      "comparison_cases": []
+    }
+  ]
+}

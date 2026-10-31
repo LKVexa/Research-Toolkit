@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0.0",
+  "diagnostic_validation": "pass",
+  "source_paper_validation": "unverified",
+  "results_by_comparison": {
+    "positive": 3,
+    "negative": 4,
+    "inconclusive": 3
+  },
+  "independent_oracle": "Exact rational regression/loss arithmetic and native literal/math expectations",
+  "final_labels_in_numerical_method_inputs": false,
+  "raw_evaluation_rows_in_public_exports": false,
+  "repetitions_increase_sample_count": false,
+  "inferential_statistics_claimed": false,
+  "native_partitions": "Scored observations include native development and final fixture cases; not a new blinded holdout",
+  "pc_winter": "Unavailable here; original negative findings preserved without fresh execution",
+  "evidence": [
+    "validation/scientific/FINAL-RUNNER-SCIENTIFIC-REVIEW.json",
+    "validation/qualification/QUALIFICATION.json"
+  ]
+}

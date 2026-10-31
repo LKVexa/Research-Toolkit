@@ -1,0 +1,28 @@
+test_adjacent_float_tolerances_have_correct_direction (__main__.NativePairs.test_adjacent_float_tolerances_have_correct_direction) ... ok
+test_equivalent_native_zero_dispersion_is_not_significance (__main__.NativePairs.test_equivalent_native_zero_dispersion_is_not_significance) ... ok
+test_exact_three_fourteenths_boundary_is_inconclusive (__main__.NativePairs.test_exact_three_fourteenths_boundary_is_inconclusive) ... ok
+test_negative_token_paired_score_and_population_sd (__main__.NativePairs.test_negative_token_paired_score_and_population_sd) ... ok
+test_concurrent_cancel_during_sealing_preserves_receipt (test_operations.Operations.test_concurrent_cancel_during_sealing_preserves_receipt) ... ok
+test_concurrent_duplicate_run_has_single_evidence_owner (test_operations.Operations.test_concurrent_duplicate_run_has_single_evidence_owner) ... ok
+test_concurrent_protocol_registration_cannot_bypass_version_chain (test_operations.Operations.test_concurrent_protocol_registration_cannot_bypass_version_chain) ... ok
+test_dataset_metadata_and_protocol_timestamp_tampering_refused (test_operations.Operations.test_dataset_metadata_and_protocol_timestamp_tampering_refused) ... ok
+test_deterministic_repetitions_do_not_multiply_samples (test_operations.Operations.test_deterministic_repetitions_do_not_multiply_samples) ... ok
+test_duplicate_run_identity_does_not_change_completed_evidence (test_operations.Operations.test_duplicate_run_identity_does_not_change_completed_evidence) ... ok
+test_failed_and_incomplete_runs_are_not_pooled (test_operations.Operations.test_failed_and_incomplete_runs_are_not_pooled) ... ok
+test_final_labels_absent_from_method_request_and_export (test_operations.Operations.test_final_labels_absent_from_method_request_and_export) ... ok
+test_frozen_protocol_cannot_mutate_and_requires_version_reason (test_operations.Operations.test_frozen_protocol_cannot_mutate_and_requires_version_reason) ... ok
+test_incompatible_comparison_retains_individual_negative_result (test_operations.Operations.test_incompatible_comparison_retains_individual_negative_result) ... ok
+test_invalid_protocols_cannot_inject_commands_or_paths (test_operations.Operations.test_invalid_protocols_cannot_inject_commands_or_paths) ... ok
+test_late_cancel_has_no_final_success_summary (test_operations.Operations.test_late_cancel_has_no_final_success_summary) ... ok
+test_missing_raw_output_and_receipt_corruption_refused (test_operations.Operations.test_missing_raw_output_and_receipt_corruption_refused) ... ok
+test_nan_and_malformed_numeric_results_become_failed_evidence (test_operations.Operations.test_nan_and_malformed_numeric_results_become_failed_evidence) ... ok
+test_nonreproducible_execution_has_no_final_positive_summary (test_operations.Operations.test_nonreproducible_execution_has_no_final_positive_summary) ... ok
+test_ready_recovery_recomputes_without_execution (test_operations.Operations.test_ready_recovery_recomputes_without_execution) ... ok
+test_real_native_negative_preserved_and_exported (test_operations.Operations.test_real_native_negative_preserved_and_exported) ... ok
+test_report_escapes_protocol_text (test_operations.Operations.test_report_escapes_protocol_text) ... ok
+test_resume_after_unknown_outcome_never_reexecutes (test_operations.Operations.test_resume_after_unknown_outcome_never_reexecutes) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 54.686s
+
+OK
